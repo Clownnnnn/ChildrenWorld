@@ -1,0 +1,2560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880089E81BDDB92C005FD0E1 /* LMKLeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880089E61BDDB92C005FD0E1 /* LMKLeadViewController.m */; };
+		880089E91BDDB92C005FD0E1 /* LMKLeadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880089E71BDDB92C005FD0E1 /* LMKLeadViewController.xib */; };
+		880460121BD87B2900AD3DAB /* button_reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 880460111BD87B2900AD3DAB /* button_reset.png */; };
+		880460141BD87B3800AD3DAB /* button_erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 880460131BD87B3800AD3DAB /* button_erase.png */; };
+		880460161BD87BD700AD3DAB /* button_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 880460151BD87BD700AD3DAB /* button_save.png */; };
+		880460181BD87BE800AD3DAB /* button_pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 880460171BD87BE800AD3DAB /* button_pen.png */; };
+		8804601A1BD87BF000AD3DAB /* button_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 880460191BD87BF000AD3DAB /* button_color.png */; };
+		8804601E1BD87C7700AD3DAB /* cemera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8804601D1BD87C7700AD3DAB /* cemera.png */; };
+		8809812F1BDE2FBB00931ACF /* LMKColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8809812D1BDE2FBB00931ACF /* LMKColorViewController.m */; };
+		880981301BDE2FBB00931ACF /* LMKColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8809812E1BDE2FBB00931ACF /* LMKColorViewController.xib */; };
+		880981331BDE37D700931ACF /* LMKLeadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 880981321BDE37D700931ACF /* LMKLeadButton.m */; };
+		88749ED71BD718EE00FAE46E /* LMKTouchDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88749ED61BD718EE00FAE46E /* LMKTouchDrawView.m */; };
+		88749ED91BD71BAD00FAE46E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88749ED81BD71BAD00FAE46E /* CoreGraphics.framework */; };
+		88749EDB1BD71BBD00FAE46E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88749EDA1BD71BBD00FAE46E /* UIKit.framework */; };
+		88749EDD1BD71BCC00FAE46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88749EDC1BD71BCC00FAE46E /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8882D4361BD8A1D3002A3E0E /* draw1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4351BD8A1D3002A3E0E /* draw1.png */; };
+		8882D4381BD8A302002A3E0E /* Sketch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4371BD8A302002A3E0E /* Sketch.plist */; };
+		8882D43C1BD8A636002A3E0E /* LMKRootsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882D43B1BD8A636002A3E0E /* LMKRootsView.m */; };
+		8882D51A1BD8B6B4002A3E0E /* 乌龟1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4421BD8B6B4002A3E0E /* 乌龟1.jpg */; };
+		8882D51B1BD8B6B4002A3E0E /* 乌龟2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4431BD8B6B4002A3E0E /* 乌龟2.jpg */; };
+		8882D51C1BD8B6B4002A3E0E /* 乌龟3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4441BD8B6B4002A3E0E /* 乌龟3.jpg */; };
+		8882D51D1BD8B6B4002A3E0E /* 乌龟4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4451BD8B6B4002A3E0E /* 乌龟4.jpg */; };
+		8882D51E1BD8B6B4002A3E0E /* 乌龟5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4461BD8B6B4002A3E0E /* 乌龟5.jpg */; };
+		8882D51F1BD8B6B4002A3E0E /* 兔子1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4481BD8B6B4002A3E0E /* 兔子1.jpg */; };
+		8882D5201BD8B6B4002A3E0E /* 兔子10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4491BD8B6B4002A3E0E /* 兔子10.jpg */; };
+		8882D5211BD8B6B4002A3E0E /* 兔子2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44A1BD8B6B4002A3E0E /* 兔子2.jpg */; };
+		8882D5221BD8B6B4002A3E0E /* 兔子3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44B1BD8B6B4002A3E0E /* 兔子3.jpg */; };
+		8882D5231BD8B6B4002A3E0E /* 兔子4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44C1BD8B6B4002A3E0E /* 兔子4.jpg */; };
+		8882D5241BD8B6B4002A3E0E /* 兔子5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44D1BD8B6B4002A3E0E /* 兔子5.jpg */; };
+		8882D5251BD8B6B4002A3E0E /* 兔子6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44E1BD8B6B4002A3E0E /* 兔子6.jpg */; };
+		8882D5261BD8B6B4002A3E0E /* 兔子7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D44F1BD8B6B4002A3E0E /* 兔子7.jpg */; };
+		8882D5271BD8B6B4002A3E0E /* 兔子8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4501BD8B6B4002A3E0E /* 兔子8.jpg */; };
+		8882D5281BD8B6B4002A3E0E /* 兔子9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4511BD8B6B4002A3E0E /* 兔子9.jpg */; };
+		8882D5351BD8B6B4002A3E0E /* 大象1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4601BD8B6B4002A3E0E /* 大象1.jpg */; };
+		8882D5361BD8B6B4002A3E0E /* 大象2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4611BD8B6B4002A3E0E /* 大象2.jpg */; };
+		8882D5371BD8B6B4002A3E0E /* 大象3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4621BD8B6B4002A3E0E /* 大象3.jpg */; };
+		8882D5381BD8B6B4002A3E0E /* 大象4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4631BD8B6B4002A3E0E /* 大象4.jpg */; };
+		8882D5391BD8B6B4002A3E0E /* 大象5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4641BD8B6B4002A3E0E /* 大象5.jpg */; };
+		8882D53A1BD8B6B4002A3E0E /* 大象6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4651BD8B6B4002A3E0E /* 大象6.jpg */; };
+		8882D53B1BD8B6B4002A3E0E /* 小狗1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4671BD8B6B4002A3E0E /* 小狗1.jpg */; };
+		8882D53C1BD8B6B4002A3E0E /* 小狗2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4681BD8B6B4002A3E0E /* 小狗2.jpg */; };
+		8882D53D1BD8B6B4002A3E0E /* 小狗3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4691BD8B6B4002A3E0E /* 小狗3.jpg */; };
+		8882D53E1BD8B6B4002A3E0E /* 小狗4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D46A1BD8B6B4002A3E0E /* 小狗4.jpg */; };
+		8882D53F1BD8B6B4002A3E0E /* 小狗5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D46B1BD8B6B4002A3E0E /* 小狗5.jpg */; };
+		8882D5401BD8B6B4002A3E0E /* 小狗6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D46C1BD8B6B4002A3E0E /* 小狗6.jpg */; };
+		8882D5411BD8B6B4002A3E0E /* 小狗7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D46D1BD8B6B4002A3E0E /* 小狗7.jpg */; };
+		8882D5421BD8B6B4002A3E0E /* 小狗8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D46E1BD8B6B4002A3E0E /* 小狗8.jpg */; };
+		8882D5431BD8B6B4002A3E0E /* 小马1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4701BD8B6B4002A3E0E /* 小马1.jpg */; };
+		8882D5441BD8B6B4002A3E0E /* 小马2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4711BD8B6B4002A3E0E /* 小马2.jpg */; };
+		8882D5451BD8B6B4002A3E0E /* 小马3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4721BD8B6B4002A3E0E /* 小马3.jpg */; };
+		8882D5461BD8B6B4002A3E0E /* 小马4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4731BD8B6B4002A3E0E /* 小马4.jpg */; };
+		8882D5471BD8B6B4002A3E0E /* 小马5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4741BD8B6B4002A3E0E /* 小马5.jpg */; };
+		8882D5481BD8B6B4002A3E0E /* 小马6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4751BD8B6B4002A3E0E /* 小马6.jpg */; };
+		8882D5491BD8B6B4002A3E0E /* 小马7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4761BD8B6B4002A3E0E /* 小马7.jpg */; };
+		8882D54A1BD8B6B4002A3E0E /* 小马8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4771BD8B6B4002A3E0E /* 小马8.jpg */; };
+		8882D54B1BD8B6B4002A3E0E /* 小马9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4781BD8B6B4002A3E0E /* 小马9.jpg */; };
+		8882D54C1BD8B6B4002A3E0E /* 毛毛虫1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47A1BD8B6B4002A3E0E /* 毛毛虫1.jpg */; };
+		8882D54D1BD8B6B4002A3E0E /* 毛毛虫2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47B1BD8B6B4002A3E0E /* 毛毛虫2.jpg */; };
+		8882D54E1BD8B6B4002A3E0E /* 毛毛虫3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47C1BD8B6B4002A3E0E /* 毛毛虫3.jpg */; };
+		8882D54F1BD8B6B4002A3E0E /* 毛毛虫4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47D1BD8B6B4002A3E0E /* 毛毛虫4.jpg */; };
+		8882D5501BD8B6B4002A3E0E /* 毛毛虫5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47E1BD8B6B4002A3E0E /* 毛毛虫5.jpg */; };
+		8882D5511BD8B6B4002A3E0E /* 毛毛虫6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D47F1BD8B6B4002A3E0E /* 毛毛虫6.jpg */; };
+		8882D5521BD8B6B4002A3E0E /* 水濑1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4811BD8B6B4002A3E0E /* 水濑1.jpg */; };
+		8882D5531BD8B6B4002A3E0E /* 水濑10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4821BD8B6B4002A3E0E /* 水濑10.jpg */; };
+		8882D5541BD8B6B4002A3E0E /* 水濑11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4831BD8B6B4002A3E0E /* 水濑11.jpg */; };
+		8882D5551BD8B6B4002A3E0E /* 水濑2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4841BD8B6B4002A3E0E /* 水濑2.jpg */; };
+		8882D5561BD8B6B4002A3E0E /* 水濑3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4851BD8B6B4002A3E0E /* 水濑3.jpg */; };
+		8882D5571BD8B6B4002A3E0E /* 水濑4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4861BD8B6B4002A3E0E /* 水濑4.jpg */; };
+		8882D5581BD8B6B4002A3E0E /* 水濑5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4871BD8B6B4002A3E0E /* 水濑5.jpg */; };
+		8882D5591BD8B6B4002A3E0E /* 水濑6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4881BD8B6B4002A3E0E /* 水濑6.jpg */; };
+		8882D55A1BD8B6B4002A3E0E /* 水濑7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4891BD8B6B4002A3E0E /* 水濑7.jpg */; };
+		8882D55B1BD8B6B4002A3E0E /* 水濑8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D48A1BD8B6B4002A3E0E /* 水濑8.jpg */; };
+		8882D55C1BD8B6B4002A3E0E /* 水濑9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D48B1BD8B6B4002A3E0E /* 水濑9.jpg */; };
+		8882D55D1BD8B6B4002A3E0E /* 海豚1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D48D1BD8B6B4002A3E0E /* 海豚1.jpg */; };
+		8882D55E1BD8B6B4002A3E0E /* 海豚2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D48E1BD8B6B4002A3E0E /* 海豚2.jpg */; };
+		8882D55F1BD8B6B4002A3E0E /* 海豚3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D48F1BD8B6B4002A3E0E /* 海豚3.jpg */; };
+		8882D5601BD8B6B4002A3E0E /* 海豚4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4901BD8B6B4002A3E0E /* 海豚4.jpg */; };
+		8882D5611BD8B6B4002A3E0E /* 海豚5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4911BD8B6B4002A3E0E /* 海豚5.jpg */; };
+		8882D5621BD8B6B4002A3E0E /* 海豚6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4921BD8B6B4002A3E0E /* 海豚6.jpg */; };
+		8882D5631BD8B6B4002A3E0E /* 海豚7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4931BD8B6B4002A3E0E /* 海豚7.jpg */; };
+		8882D5641BD8B6B4002A3E0E /* 牧羊犬1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4951BD8B6B4002A3E0E /* 牧羊犬1.jpg */; };
+		8882D5651BD8B6B4002A3E0E /* 牧羊犬10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4961BD8B6B4002A3E0E /* 牧羊犬10.jpg */; };
+		8882D5661BD8B6B4002A3E0E /* 牧羊犬11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4971BD8B6B4002A3E0E /* 牧羊犬11.jpg */; };
+		8882D5671BD8B6B4002A3E0E /* 牧羊犬12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4981BD8B6B4002A3E0E /* 牧羊犬12.jpg */; };
+		8882D5681BD8B6B4002A3E0E /* 牧羊犬13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4991BD8B6B4002A3E0E /* 牧羊犬13.jpg */; };
+		8882D5691BD8B6B4002A3E0E /* 牧羊犬14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49A1BD8B6B4002A3E0E /* 牧羊犬14.jpg */; };
+		8882D56A1BD8B6B4002A3E0E /* 牧羊犬2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49B1BD8B6B4002A3E0E /* 牧羊犬2.jpg */; };
+		8882D56B1BD8B6B4002A3E0E /* 牧羊犬3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49C1BD8B6B4002A3E0E /* 牧羊犬3.jpg */; };
+		8882D56C1BD8B6B4002A3E0E /* 牧羊犬4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49D1BD8B6B4002A3E0E /* 牧羊犬4.jpg */; };
+		8882D56D1BD8B6B4002A3E0E /* 牧羊犬5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49E1BD8B6B4002A3E0E /* 牧羊犬5.jpg */; };
+		8882D56E1BD8B6B4002A3E0E /* 牧羊犬6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D49F1BD8B6B4002A3E0E /* 牧羊犬6.jpg */; };
+		8882D56F1BD8B6B4002A3E0E /* 牧羊犬7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A01BD8B6B4002A3E0E /* 牧羊犬7.jpg */; };
+		8882D5701BD8B6B4002A3E0E /* 牧羊犬8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A11BD8B6B4002A3E0E /* 牧羊犬8.jpg */; };
+		8882D5711BD8B6B4002A3E0E /* 牧羊犬9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A21BD8B6B4002A3E0E /* 牧羊犬9.jpg */; };
+		8882D5721BD8B6B4002A3E0E /* 犀牛1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A41BD8B6B4002A3E0E /* 犀牛1.jpg */; };
+		8882D5731BD8B6B4002A3E0E /* 犀牛10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A51BD8B6B4002A3E0E /* 犀牛10.jpg */; };
+		8882D5741BD8B6B4002A3E0E /* 犀牛11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A61BD8B6B4002A3E0E /* 犀牛11.jpg */; };
+		8882D5751BD8B6B4002A3E0E /* 犀牛2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A71BD8B6B4002A3E0E /* 犀牛2.jpg */; };
+		8882D5761BD8B6B4002A3E0E /* 犀牛3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A81BD8B6B4002A3E0E /* 犀牛3.jpg */; };
+		8882D5771BD8B6B4002A3E0E /* 犀牛4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4A91BD8B6B4002A3E0E /* 犀牛4.jpg */; };
+		8882D5781BD8B6B4002A3E0E /* 犀牛5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4AA1BD8B6B4002A3E0E /* 犀牛5.jpg */; };
+		8882D5791BD8B6B4002A3E0E /* 犀牛6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4AB1BD8B6B4002A3E0E /* 犀牛6.jpg */; };
+		8882D57A1BD8B6B4002A3E0E /* 犀牛7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4AC1BD8B6B4002A3E0E /* 犀牛7.jpg */; };
+		8882D57B1BD8B6B4002A3E0E /* 犀牛8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4AD1BD8B6B4002A3E0E /* 犀牛8.jpg */; };
+		8882D57C1BD8B6B4002A3E0E /* 犀牛9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4AE1BD8B6B4002A3E0E /* 犀牛9.jpg */; };
+		8882D57D1BD8B6B4002A3E0E /* 猫1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B01BD8B6B4002A3E0E /* 猫1.jpg */; };
+		8882D57E1BD8B6B4002A3E0E /* 猫2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B11BD8B6B4002A3E0E /* 猫2.jpg */; };
+		8882D57F1BD8B6B4002A3E0E /* 猫3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B21BD8B6B4002A3E0E /* 猫3.jpg */; };
+		8882D5801BD8B6B4002A3E0E /* 猫4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B31BD8B6B4002A3E0E /* 猫4.jpg */; };
+		8882D5811BD8B6B4002A3E0E /* 猫5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B41BD8B6B4002A3E0E /* 猫5.jpg */; };
+		8882D5821BD8B6B4002A3E0E /* 猫6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B51BD8B6B4002A3E0E /* 猫6.jpg */; };
+		8882D5831BD8B6B4002A3E0E /* 猫7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B61BD8B6B4002A3E0E /* 猫7.jpg */; };
+		8882D5841BD8B6B4002A3E0E /* 猫8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B71BD8B6B4002A3E0E /* 猫8.jpg */; };
+		8882D5851BD8B6B4002A3E0E /* 猫头鹰1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4B91BD8B6B4002A3E0E /* 猫头鹰1.jpg */; };
+		8882D5861BD8B6B4002A3E0E /* 猫头鹰2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BA1BD8B6B4002A3E0E /* 猫头鹰2.jpg */; };
+		8882D5871BD8B6B4002A3E0E /* 猫头鹰3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BB1BD8B6B4002A3E0E /* 猫头鹰3.jpg */; };
+		8882D5881BD8B6B4002A3E0E /* 猫头鹰4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BC1BD8B6B4002A3E0E /* 猫头鹰4.jpg */; };
+		8882D5891BD8B6B4002A3E0E /* 猫头鹰5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BD1BD8B6B4002A3E0E /* 猫头鹰5.jpg */; };
+		8882D58A1BD8B6B4002A3E0E /* 猫头鹰6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BE1BD8B6B4002A3E0E /* 猫头鹰6.jpg */; };
+		8882D58B1BD8B6B4002A3E0E /* 猫头鹰7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4BF1BD8B6B4002A3E0E /* 猫头鹰7.jpg */; };
+		8882D58C1BD8B6B4002A3E0E /* 猴子1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C11BD8B6B4002A3E0E /* 猴子1.jpg */; };
+		8882D58D1BD8B6B4002A3E0E /* 猴子2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C21BD8B6B4002A3E0E /* 猴子2.jpg */; };
+		8882D58E1BD8B6B4002A3E0E /* 猴子3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C31BD8B6B4002A3E0E /* 猴子3.jpg */; };
+		8882D58F1BD8B6B4002A3E0E /* 猴子4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C41BD8B6B4002A3E0E /* 猴子4.jpg */; };
+		8882D5901BD8B6B4002A3E0E /* 猴子5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C51BD8B6B4002A3E0E /* 猴子5.jpg */; };
+		8882D5911BD8B6B4002A3E0E /* 猴子6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C61BD8B6B4002A3E0E /* 猴子6.jpg */; };
+		8882D5921BD8B6B4002A3E0E /* 猴子7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C71BD8B6B4002A3E0E /* 猴子7.jpg */; };
+		8882D5931BD8B6B4002A3E0E /* 猴子8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4C81BD8B6B4002A3E0E /* 猴子8.jpg */; };
+		8882D5941BD8B6B4002A3E0E /* 老鼠1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4CA1BD8B6B4002A3E0E /* 老鼠1.jpg */; };
+		8882D5951BD8B6B4002A3E0E /* 老鼠2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4CB1BD8B6B4002A3E0E /* 老鼠2.jpg */; };
+		8882D5961BD8B6B4002A3E0E /* 老鼠3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4CC1BD8B6B4002A3E0E /* 老鼠3.jpg */; };
+		8882D5971BD8B6B4002A3E0E /* 草莓1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4CF1BD8B6B4002A3E0E /* 草莓1.jpg */; };
+		8882D5981BD8B6B4002A3E0E /* 草莓2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D01BD8B6B4002A3E0E /* 草莓2.jpg */; };
+		8882D5991BD8B6B4002A3E0E /* 草莓3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D11BD8B6B4002A3E0E /* 草莓3.jpg */; };
+		8882D59A1BD8B6B4002A3E0E /* 草莓4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D21BD8B6B4002A3E0E /* 草莓4.jpg */; };
+		8882D59B1BD8B6B4002A3E0E /* 草莓5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D31BD8B6B4002A3E0E /* 草莓5.jpg */; };
+		8882D59C1BD8B6B4002A3E0E /* 草莓6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D41BD8B6B4002A3E0E /* 草莓6.jpg */; };
+		8882D59D1BD8B6B4002A3E0E /* 蚂蚁1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D61BD8B6B4002A3E0E /* 蚂蚁1.jpg */; };
+		8882D59E1BD8B6B4002A3E0E /* 蚂蚁2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D71BD8B6B4002A3E0E /* 蚂蚁2.jpg */; };
+		8882D59F1BD8B6B4002A3E0E /* 蚂蚁3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D81BD8B6B4002A3E0E /* 蚂蚁3.jpg */; };
+		8882D5A01BD8B6B4002A3E0E /* 蚂蚁4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4D91BD8B6B4002A3E0E /* 蚂蚁4.jpg */; };
+		8882D5A11BD8B6B4002A3E0E /* 蚂蚁5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4DA1BD8B6B4002A3E0E /* 蚂蚁5.jpg */; };
+		8882D5A21BD8B6B4002A3E0E /* 蚂蚁6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4DB1BD8B6B4002A3E0E /* 蚂蚁6.jpg */; };
+		8882D5A31BD8B6B4002A3E0E /* 蚂蚁7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4DC1BD8B6B4002A3E0E /* 蚂蚁7.jpg */; };
+		8882D5A41BD8B6B4002A3E0E /* 蚂蚁8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4DD1BD8B6B4002A3E0E /* 蚂蚁8.jpg */; };
+		8882D5A51BD8B6B4002A3E0E /* 蚂蚁9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4DE1BD8B6B4002A3E0E /* 蚂蚁9.jpg */; };
+		8882D5A61BD8B6B4002A3E0E /* 蛇1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E01BD8B6B4002A3E0E /* 蛇1.jpg */; };
+		8882D5A71BD8B6B4002A3E0E /* 蛇2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E11BD8B6B4002A3E0E /* 蛇2.jpg */; };
+		8882D5A81BD8B6B4002A3E0E /* 蛇3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E21BD8B6B4002A3E0E /* 蛇3.jpg */; };
+		8882D5A91BD8B6B4002A3E0E /* 蛇4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E31BD8B6B4002A3E0E /* 蛇4.jpg */; };
+		8882D5AA1BD8B6B4002A3E0E /* 蛇5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E41BD8B6B4002A3E0E /* 蛇5.jpg */; };
+		8882D5AB1BD8B6B4002A3E0E /* 蛇6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E51BD8B6B4002A3E0E /* 蛇6.jpg */; };
+		8882D5AC1BD8B6B4002A3E0E /* 蜜蜂1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E71BD8B6B4002A3E0E /* 蜜蜂1.jpg */; };
+		8882D5AD1BD8B6B4002A3E0E /* 蜜蜂2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E81BD8B6B4002A3E0E /* 蜜蜂2.jpg */; };
+		8882D5AE1BD8B6B4002A3E0E /* 蜜蜂3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4E91BD8B6B4002A3E0E /* 蜜蜂3.jpg */; };
+		8882D5AF1BD8B6B4002A3E0E /* 蜜蜂4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4EA1BD8B6B4002A3E0E /* 蜜蜂4.jpg */; };
+		8882D5B01BD8B6B4002A3E0E /* 蜜蜂5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4EB1BD8B6B4002A3E0E /* 蜜蜂5.jpg */; };
+		8882D5B11BD8B6B4002A3E0E /* 蜜蜂6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4EC1BD8B6B4002A3E0E /* 蜜蜂6.jpg */; };
+		8882D5B21BD8B6B4002A3E0E /* 蝴蝶1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4EE1BD8B6B4002A3E0E /* 蝴蝶1.jpg */; };
+		8882D5B31BD8B6B4002A3E0E /* 蝴蝶2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4EF1BD8B6B4002A3E0E /* 蝴蝶2.jpg */; };
+		8882D5B41BD8B6B4002A3E0E /* 蝴蝶3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F01BD8B6B4002A3E0E /* 蝴蝶3.jpg */; };
+		8882D5B51BD8B6B4002A3E0E /* 蝴蝶4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F11BD8B6B4002A3E0E /* 蝴蝶4.jpg */; };
+		8882D5B61BD8B6B4002A3E0E /* 蝴蝶5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F21BD8B6B4002A3E0E /* 蝴蝶5.jpg */; };
+		8882D5B71BD8B6B4002A3E0E /* 西红柿1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F41BD8B6B4002A3E0E /* 西红柿1.jpg */; };
+		8882D5B81BD8B6B4002A3E0E /* 西红柿2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F51BD8B6B4002A3E0E /* 西红柿2.jpg */; };
+		8882D5B91BD8B6B4002A3E0E /* 西红柿3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F61BD8B6B4002A3E0E /* 西红柿3.jpg */; };
+		8882D5BA1BD8B6B4002A3E0E /* 西红柿4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F71BD8B6B4002A3E0E /* 西红柿4.jpg */; };
+		8882D5BB1BD8B6B4002A3E0E /* 青蛙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4F91BD8B6B4002A3E0E /* 青蛙.jpg */; };
+		8882D5BC1BD8B6B4002A3E0E /* 青蛙1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FA1BD8B6B4002A3E0E /* 青蛙1.jpg */; };
+		8882D5BD1BD8B6B4002A3E0E /* 青蛙2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FB1BD8B6B4002A3E0E /* 青蛙2.jpg */; };
+		8882D5BE1BD8B6B4002A3E0E /* 青蛙3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FC1BD8B6B4002A3E0E /* 青蛙3.jpg */; };
+		8882D5BF1BD8B6B4002A3E0E /* 青蛙4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FD1BD8B6B4002A3E0E /* 青蛙4.jpg */; };
+		8882D5C01BD8B6B4002A3E0E /* 青蛙5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FE1BD8B6B4002A3E0E /* 青蛙5.jpg */; };
+		8882D5C11BD8B6B4002A3E0E /* 青蛙6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D4FF1BD8B6B4002A3E0E /* 青蛙6.jpg */; };
+		8882D5C61BD8B6B4002A3E0E /* 驯鹿1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5061BD8B6B4002A3E0E /* 驯鹿1.jpg */; };
+		8882D5C71BD8B6B4002A3E0E /* 驯鹿2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5071BD8B6B4002A3E0E /* 驯鹿2.jpg */; };
+		8882D5C81BD8B6B4002A3E0E /* 驯鹿3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5081BD8B6B4002A3E0E /* 驯鹿3.jpg */; };
+		8882D5C91BD8B6B4002A3E0E /* 驯鹿4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5091BD8B6B4002A3E0E /* 驯鹿4.jpg */; };
+		8882D5CA1BD8B6B4002A3E0E /* 驯鹿5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D50A1BD8B6B4002A3E0E /* 驯鹿5.jpg */; };
+		8882D5CB1BD8B6B4002A3E0E /* 驯鹿6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D50B1BD8B6B4002A3E0E /* 驯鹿6.jpg */; };
+		8882D5CC1BD8B6B4002A3E0E /* 驯鹿7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D50C1BD8B6B4002A3E0E /* 驯鹿7.jpg */; };
+		8882D5CD1BD8B6B4002A3E0E /* 鸭子1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D50E1BD8B6B4002A3E0E /* 鸭子1.jpg */; };
+		8882D5CE1BD8B6B4002A3E0E /* 鸭子2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D50F1BD8B6B4002A3E0E /* 鸭子2.jpg */; };
+		8882D5CF1BD8B6B4002A3E0E /* 鸭子3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5101BD8B6B4002A3E0E /* 鸭子3.jpg */; };
+		8882D5D01BD8B6B4002A3E0E /* 鸭子4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5111BD8B6B4002A3E0E /* 鸭子4.jpg */; };
+		8882D5D11BD8B6B4002A3E0E /* 鸭子5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5121BD8B6B4002A3E0E /* 鸭子5.jpg */; };
+		8882D5D21BD8B6B4002A3E0E /* 鸽子1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5141BD8B6B4002A3E0E /* 鸽子1.jpg */; };
+		8882D5D31BD8B6B4002A3E0E /* 鸽子2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5151BD8B6B4002A3E0E /* 鸽子2.jpg */; };
+		8882D5D41BD8B6B4002A3E0E /* 鸽子3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5161BD8B6B4002A3E0E /* 鸽子3.jpg */; };
+		8882D5D51BD8B6B4002A3E0E /* 鸽子4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5171BD8B6B4002A3E0E /* 鸽子4.jpg */; };
+		8882D5D61BD8B6B4002A3E0E /* 鸽子5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5181BD8B6B4002A3E0E /* 鸽子5.jpg */; };
+		8882D5D71BD8B6B4002A3E0E /* 鸽子6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5191BD8B6B4002A3E0E /* 鸽子6.jpg */; };
+		8882D5DA1BD8C2E4002A3E0E /* button_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5D81BD8C2E4002A3E0E /* button_right.png */; };
+		8882D5DB1BD8C2E4002A3E0E /* button_return.png in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5D91BD8C2E4002A3E0E /* button_return.png */; };
+		8882D5DD1BD8C2E9002A3E0E /* button_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 8882D5DC1BD8C2E9002A3E0E /* button_left.png */; };
+		888978F71BE0563000300D0D /* GBXGoToPlayFlowerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978891BE0563000300D0D /* GBXGoToPlayFlowerController.m */; };
+		888978F81BE0563000300D0D /* GBXGoToPlayFlowerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8889788A1BE0563000300D0D /* GBXGoToPlayFlowerController.xib */; };
+		888978F91BE0563000300D0D /* GBXGoToPlayFruitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8889788C1BE0563000300D0D /* GBXGoToPlayFruitController.m */; };
+		888978FA1BE0563000300D0D /* GBXGoToPlayFruitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8889788D1BE0563000300D0D /* GBXGoToPlayFruitController.xib */; };
+		888978FB1BE0563000300D0D /* GBXGoToPlayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8889788F1BE0563000300D0D /* GBXGoToPlayItem.m */; };
+		888978FC1BE0563000300D0D /* GBXGoToPlaySideAnimalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978911BE0563000300D0D /* GBXGoToPlaySideAnimalController.m */; };
+		888978FD1BE0563000300D0D /* GBXGoToPlaySideAnimalController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888978921BE0563000300D0D /* GBXGoToPlaySideAnimalController.xib */; };
+		888978FE1BE0563000300D0D /* GBXGoToPlayTreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978941BE0563000300D0D /* GBXGoToPlayTreeController.m */; };
+		888978FF1BE0563000300D0D /* GBXGoToPlayTreeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888978951BE0563000300D0D /* GBXGoToPlayTreeController.xib */; };
+		888979001BE0563000300D0D /* GBXGoToPlayVegetableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978971BE0563000300D0D /* GBXGoToPlayVegetableController.m */; };
+		888979011BE0563000300D0D /* GBXGoToPlayVegetableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888978981BE0563000300D0D /* GBXGoToPlayVegetableController.xib */; };
+		888979021BE0563000300D0D /* GBXGoToPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8889789A1BE0563000300D0D /* GBXGoToPlayView.m */; };
+		888979031BE0563000300D0D /* GBXGoToPlayWildLifeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8889789C1BE0563000300D0D /* GBXGoToPlayWildLifeController.m */; };
+		888979041BE0563000300D0D /* GBXGoToPlayWildLifeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8889789D1BE0563000300D0D /* GBXGoToPlayWildLifeController.xib */; };
+		888979051BE0563000300D0D /* 月季.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A01BE0563000300D0D /* 月季.png */; };
+		888979061BE0563000300D0D /* 杜鹃.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A11BE0563000300D0D /* 杜鹃.png */; };
+		888979071BE0563000300D0D /* 梅花.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A21BE0563000300D0D /* 梅花.png */; };
+		888979081BE0563000300D0D /* 爬山虎.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A31BE0563000300D0D /* 爬山虎.png */; };
+		888979091BE0563000300D0D /* 牡丹.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A41BE0563000300D0D /* 牡丹.png */; };
+		8889790A1BE0563000300D0D /* 百合.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A51BE0563000300D0D /* 百合.png */; };
+		8889790B1BE0563000300D0D /* 红玫瑰.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A61BE0563000300D0D /* 红玫瑰.png */; };
+		8889790C1BE0563000300D0D /* 茉莉花.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A71BE0563000300D0D /* 茉莉花.png */; };
+		8889790D1BE0563000300D0D /* 荷花.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A81BE0563000300D0D /* 荷花.png */; };
+		8889790E1BE0563000300D0D /* 菊花.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978A91BE0563000300D0D /* 菊花.png */; };
+		8889790F1BE0563000300D0D /* 蒲公英.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978AA1BE0563000300D0D /* 蒲公英.png */; };
+		888979101BE0563000300D0D /* 桃.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978AC1BE0563000300D0D /* 桃.png */; };
+		888979111BE0563000300D0D /* 桔子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978AD1BE0563000300D0D /* 桔子.png */; };
+		888979121BE0563000300D0D /* 梨.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978AE1BE0563000300D0D /* 梨.png */; };
+		888979131BE0563000300D0D /* 榴莲.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978AF1BE0563000300D0D /* 榴莲.png */; };
+		888979141BE0563000300D0D /* 橙子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B01BE0563000300D0D /* 橙子.png */; };
+		888979151BE0563000300D0D /* 苹果.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B11BE0563000300D0D /* 苹果.png */; };
+		888979161BE0563000300D0D /* 荔枝.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B21BE0563000300D0D /* 荔枝.png */; };
+		888979171BE0563000300D0D /* 葡萄.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B31BE0563000300D0D /* 葡萄.png */; };
+		888979181BE0563000300D0D /* 西瓜.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B41BE0563000300D0D /* 西瓜.png */; };
+		888979191BE0563000300D0D /* 香蕉.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B51BE0563000300D0D /* 香蕉.png */; };
+		8889791A1BE0563000300D0D /* 兔子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B71BE0563000300D0D /* 兔子.png */; };
+		8889791B1BE0563000300D0D /* 公鸡.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B81BE0563000300D0D /* 公鸡.png */; };
+		8889791C1BE0563000300D0D /* 毛驴.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978B91BE0563000300D0D /* 毛驴.png */; };
+		8889791D1BE0563000300D0D /* 牛.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BA1BE0563000300D0D /* 牛.png */; };
+		8889791E1BE0563000300D0D /* 狗.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BB1BE0563000300D0D /* 狗.png */; };
+		8889791F1BE0563000300D0D /* 猪.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BC1BE0563000300D0D /* 猪.png */; };
+		888979201BE0563000300D0D /* 猫.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BD1BE0563000300D0D /* 猫.png */; };
+		888979211BE0563000300D0D /* 羊.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BE1BE0563000300D0D /* 羊.png */; };
+		888979221BE0563000300D0D /* 马.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978BF1BE0563000300D0D /* 马.png */; };
+		888979231BE0563000300D0D /* 鸭子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C01BE0563000300D0D /* 鸭子.png */; };
+		888979241BE0563000300D0D /* 杏树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C21BE0563000300D0D /* 杏树.png */; };
+		888979251BE0563000300D0D /* 杨树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C31BE0563000300D0D /* 杨树.png */; };
+		888979261BE0563000300D0D /* 松树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C41BE0563000300D0D /* 松树.png */; };
+		888979271BE0563000300D0D /* 枣树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C51BE0563000300D0D /* 枣树.png */; };
+		888979281BE0563000300D0D /* 柳树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C61BE0563000300D0D /* 柳树.png */; };
+		888979291BE0563000300D0D /* 桃树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C71BE0563000300D0D /* 桃树.png */; };
+		8889792A1BE0563000300D0D /* 桑树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C81BE0563000300D0D /* 桑树.png */; };
+		8889792B1BE0563000300D0D /* 梧桐树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978C91BE0563000300D0D /* 梧桐树.png */; };
+		8889792C1BE0563000300D0D /* 梨树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978CA1BE0563000300D0D /* 梨树.png */; };
+		8889792D1BE0563000300D0D /* 槐树.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978CB1BE0563000300D0D /* 槐树.png */; };
+		8889792E1BE0563000300D0D /* 冬瓜.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978CD1BE0563000300D0D /* 冬瓜.png */; };
+		8889792F1BE0563000300D0D /* 土豆.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978CE1BE0563000300D0D /* 土豆.png */; };
+		888979301BE0563000300D0D /* 大白菜.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978CF1BE0563000300D0D /* 大白菜.png */; };
+		888979311BE0563000300D0D /* 胡萝卜.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D01BE0563000300D0D /* 胡萝卜.png */; };
+		888979321BE0563000300D0D /* 茄子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D11BE0563000300D0D /* 茄子.png */; };
+		888979331BE0563000300D0D /* 葱.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D21BE0563000300D0D /* 葱.png */; };
+		888979341BE0563000300D0D /* 西红柿.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D31BE0563000300D0D /* 西红柿.png */; };
+		888979351BE0563000300D0D /* 豆角.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D41BE0563000300D0D /* 豆角.png */; };
+		888979361BE0563000300D0D /* 青椒.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D51BE0563000300D0D /* 青椒.png */; };
+		888979371BE0563000300D0D /* 黄瓜.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D61BE0563000300D0D /* 黄瓜.png */; };
+		888979381BE0563000300D0D /* 企鹅.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D81BE0563000300D0D /* 企鹅.png */; };
+		888979391BE0563000300D0D /* 大象.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978D91BE0563000300D0D /* 大象.png */; };
+		8889793A1BE0563000300D0D /* 孔雀.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DA1BE0563000300D0D /* 孔雀.png */; };
+		8889793B1BE0563000300D0D /* 梅花鹿.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DB1BE0563000300D0D /* 梅花鹿.png */; };
+		8889793C1BE0563000300D0D /* 熊猫.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DC1BE0563000300D0D /* 熊猫.png */; };
+		8889793D1BE0563000300D0D /* 狮子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DD1BE0563000300D0D /* 狮子.png */; };
+		8889793E1BE0563000300D0D /* 猴子.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DE1BE0563000300D0D /* 猴子.png */; };
+		8889793F1BE0563000300D0D /* 老虎.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978DF1BE0563000300D0D /* 老虎.png */; };
+		888979401BE0563000300D0D /* 长颈鹿.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978E01BE0563000300D0D /* 长颈鹿.png */; };
+		888979411BE0563000300D0D /* 黑熊.png in Resources */ = {isa = PBXBuildFile; fileRef = 888978E11BE0563000300D0D /* 黑熊.png */; };
+		888979421BE0563000300D0D /* FlowerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978E41BE0563000300D0D /* FlowerModel.m */; };
+		888979431BE0563000300D0D /* FruitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978E61BE0563000300D0D /* FruitModel.m */; };
+		888979441BE0563000300D0D /* SideAnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978E81BE0563000300D0D /* SideAnimalModel.m */; };
+		888979451BE0563000300D0D /* TreeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978EA1BE0563000300D0D /* TreeModel.m */; };
+		888979461BE0563000300D0D /* VegetableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978EC1BE0563000300D0D /* VegetableModel.m */; };
+		888979471BE0563000300D0D /* WildLifeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 888978EE1BE0563000300D0D /* WildLifeModel.m */; };
+		888979481BE0563000300D0D /* flower.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F01BE0563000300D0D /* flower.plist */; };
+		888979491BE0563000300D0D /* Fruit.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F11BE0563000300D0D /* Fruit.plist */; };
+		8889794A1BE0563000300D0D /* SideAnimal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F21BE0563000300D0D /* SideAnimal.plist */; };
+		8889794B1BE0563000300D0D /* Tree.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F31BE0563000300D0D /* Tree.plist */; };
+		8889794C1BE0563000300D0D /* Vegetable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F41BE0563000300D0D /* Vegetable.plist */; };
+		8889794D1BE0563000300D0D /* WildLife.plist in Resources */ = {isa = PBXBuildFile; fileRef = 888978F51BE0563000300D0D /* WildLife.plist */; };
+		888979661BE0582500300D0D /* CalculateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888979511BE0582500300D0D /* CalculateViewController.m */; };
+		888979671BE0582500300D0D /* GLLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888979531BE0582500300D0D /* GLLMainViewController.m */; };
+		888979681BE0582500300D0D /* GLLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888979541BE0582500300D0D /* GLLMainViewController.xib */; };
+		888979691BE0582500300D0D /* NumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888979561BE0582500300D0D /* NumberViewController.m */; };
+		8889796A1BE0582500300D0D /* TwoCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888979581BE0582500300D0D /* TwoCalViewController.m */; };
+		8889796B1BE0582500300D0D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8889795D1BE0582500300D0D /* 3.png */; };
+		8889796C1BE0582500300D0D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8889795E1BE0582500300D0D /* 7.png */; };
+		8889796D1BE0582500300D0D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8889795F1BE0582500300D0D /* back.png */; };
+		8889796E1BE0582500300D0D /* 算术.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979601BE0582500300D0D /* 算术.jpg */; };
+		8889796F1BE0582500300D0D /* 算术1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979611BE0582500300D0D /* 算术1.jpg */; };
+		888979701BE0582500300D0D /* 算术2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979621BE0582500300D0D /* 算术2.jpg */; };
+		888979711BE0582500300D0D /* 草莓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979631BE0582500300D0D /* 草莓.jpg */; };
+		888979721BE0582500300D0D /* 菠萝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979641BE0582500300D0D /* 菠萝.jpg */; };
+		888979731BE0582500300D0D /* 香蕉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 888979651BE0582500300D0D /* 香蕉.jpg */; };
+		88897AD31BE0CF4200300D0D /* YSHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897ABE1BE0CF4200300D0D /* YSHMainViewController.m */; };
+		88897AD41BE0CF4200300D0D /* YSHMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88897ABF1BE0CF4200300D0D /* YSHMainViewController.xib */; };
+		88897AD51BE0CF4200300D0D /* YSHplaySongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897AC11BE0CF4200300D0D /* YSHplaySongsViewController.m */; };
+		88897AD61BE0CF4200300D0D /* YSHplaySongsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88897AC21BE0CF4200300D0D /* YSHplaySongsViewController.xib */; };
+		88897AD71BE0CF4200300D0D /* YSHSingSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897AC41BE0CF4200300D0D /* YSHSingSongViewController.m */; };
+		88897AD81BE0CF4200300D0D /* YSHSingSongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88897AC51BE0CF4200300D0D /* YSHSingSongViewController.xib */; };
+		88897AD91BE0CF4200300D0D /* YSHTellStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897AC71BE0CF4200300D0D /* YSHTellStoryViewController.m */; };
+		88897ADA1BE0CF4200300D0D /* YSHTellStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88897AC81BE0CF4200300D0D /* YSHTellStoryViewController.xib */; };
+		88897ADB1BE0CF4200300D0D /* YSHSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897ACB1BE0CF4200300D0D /* YSHSong.m */; };
+		88897ADC1BE0CF4200300D0D /* YSHStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897ACD1BE0CF4200300D0D /* YSHStory.m */; };
+		88897ADD1BE0CF4200300D0D /* YSHMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897AD01BE0CF4200300D0D /* YSHMainView.m */; };
+		88897ADE1BE0CF4200300D0D /* YSHTellStoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88897AD21BE0CF4200300D0D /* YSHTellStoryView.m */; };
+		88897B091BE0D00300300D0D /* aboveMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE11BE0D00200300D0D /* aboveMusic.png */; };
+		88897B0A1BE0D00300300D0D /* backgroundImage5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE21BE0D00200300D0D /* backgroundImage5.jpg */; };
+		88897B0B1BE0D00300300D0D /* circleClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE31BE0D00200300D0D /* circleClose.png */; };
+		88897B0C1BE0D00300300D0D /* circleOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE41BE0D00200300D0D /* circleOpen.png */; };
+		88897B0D1BE0D00300300D0D /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE51BE0D00200300D0D /* menu.png */; };
+		88897B0E1BE0D00300300D0D /* nextMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE61BE0D00200300D0D /* nextMusic.png */; };
+		88897B0F1BE0D00300300D0D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE71BE0D00200300D0D /* pause.png */; };
+		88897B101BE0D00300300D0D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE81BE0D00200300D0D /* play.png */; };
+		88897B111BE0D00300300D0D /* randomClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AE91BE0D00200300D0D /* randomClose.png */; };
+		88897B121BE0D00300300D0D /* randomOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AEA1BE0D00200300D0D /* randomOpen.png */; };
+		88897B131BE0D00300300D0D /* sliderThumb_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AEB1BE0D00200300D0D /* sliderThumb_small.png */; };
+		88897B141BE0D00300300D0D /* soundSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AEC1BE0D00200300D0D /* soundSlider.png */; };
+		88897B151BE0D00300300D0D /* sleep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AED1BE0D00200300D0D /* sleep.jpg */; };
+		88897B161BE0D00300300D0D /* 儿童首页.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF01BE0D00300300D0D /* 儿童首页.png */; };
+		88897B171BE0D00300300D0D /* 儿童首页_meitu_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF11BE0D00300300D0D /* 儿童首页_meitu_1.jpg */; };
+		88897B181BE0D00300300D0D /* 单个故事.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF21BE0D00300300D0D /* 单个故事.png */; };
+		88897B191BE0D00300300D0D /* 单个故事_meitu_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF31BE0D00300300D0D /* 单个故事_meitu_1.jpg */; };
+		88897B1A1BE0D00300300D0D /* 单个故事_meitu_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF41BE0D00300300D0D /* 单个故事_meitu_2.jpg */; };
+		88897B1B1BE0D00300300D0D /* 单曲哥.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF51BE0D00300300D0D /* 单曲哥.png */; };
+		88897B1C1BE0D00300300D0D /* 单曲哥_meitu_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF61BE0D00300300D0D /* 单曲哥_meitu_3.jpg */; };
+		88897B1D1BE0D00300300D0D /* 听儿歌.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF71BE0D00300300D0D /* 听儿歌.png */; };
+		88897B1E1BE0D00300300D0D /* 故事列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF81BE0D00300300D0D /* 故事列表.png */; };
+		88897B1F1BE0D00300300D0D /* 讲故事.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AF91BE0D00300300D0D /* 讲故事.png */; };
+		88897B201BE0D00300300D0D /* 讲故事_meitu_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AFA1BE0D00300300D0D /* 讲故事_meitu_3.jpg */; };
+		88897B211BE0D00300300D0D /* 儿童首页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AFB1BE0D00300300D0D /* 儿童首页.jpg */; };
+		88897B221BE0D00300300D0D /* 听儿歌_meitu_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88897AFC1BE0D00300300D0D /* 听儿歌_meitu_1.jpg */; };
+		88897B231BE0D00300300D0D /* 故事列表_meitu_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 88897AFD1BE0D00300300D0D /* 故事列表_meitu_3.png */; };
+		88897B241BE0D00300300D0D /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 88897B001BE0D00300300D0D /* 情非得已.lrc */; };
+		88897B251BE0D00300300D0D /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88897B011BE0D00300300D0D /* 情非得已.mp3 */; };
+		88897B261BE0D00300300D0D /* 李白.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88897B021BE0D00300300D0D /* 李白.mp3 */; };
+		88897B271BE0D00300300D0D /* 李荣浩-李白.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 88897B031BE0D00300300D0D /* 李荣浩-李白.lrc */; };
+		88897B281BE0D00300300D0D /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 88897B041BE0D00300300D0D /* 林俊杰-背对背拥抱.lrc */; };
+		88897B291BE0D00300300D0D /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88897B051BE0D00300300D0D /* 林俊杰-背对背拥抱.mp3 */; };
+		88897B2A1BE0D00300300D0D /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 88897B061BE0D00300300D0D /* 梁静茹-偶阵雨.lrc */; };
+		88897B2B1BE0D00300300D0D /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88897B071BE0D00300300D0D /* 梁静茹-偶阵雨.mp3 */; };
+		88897B2C1BE0D00300300D0D /* YSHSongs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88897B081BE0D00300300D0D /* YSHSongs.plist */; };
+		8890A8661BCE5C3300F51BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8651BCE5C3300F51BE9 /* main.m */; };
+		8890A8691BCE5C3300F51BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8681BCE5C3300F51BE9 /* AppDelegate.m */; };
+		8890A8711BCE5C3300F51BE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8701BCE5C3300F51BE9 /* Images.xcassets */; };
+		8890A8741BCE5C3300F51BE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8721BCE5C3300F51BE9 /* LaunchScreen.xib */; };
+		8890A8801BCE5C3300F51BE9 /* ChildrenWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A87F1BCE5C3300F51BE9 /* ChildrenWorldTests.m */; };
+		8890A8941BCE5EAF00F51BE9 /* LeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8931BCE5EAF00F51BE9 /* LeadViewController.m */; };
+		8890A8A11BCE623300F51BE9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8A01BCE623300F51BE9 /* MainViewController.m */; };
+		8890A8A41BCE646000F51BE9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8A31BCE646000F51BE9 /* icon.png */; };
+		8890A8BC1BCE65FD00F51BE9 /* MainImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8BB1BCE65FD00F51BE9 /* MainImageView.m */; };
+		8890A8C71BCE669100F51BE9 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8C21BCE669100F51BE9 /* UIImage+image.m */; };
+		8890A8C81BCE669100F51BE9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8890A8C41BCE669100F51BE9 /* UIView+Frame.m */; };
+		8890A8D31BCE675A00F51BE9 /* 单个故事.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8CC1BCE675A00F51BE9 /* 单个故事.png */; };
+		8890A8D41BCE675A00F51BE9 /* 单曲哥.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8CD1BCE675A00F51BE9 /* 单曲哥.png */; };
+		8890A8D51BCE675A00F51BE9 /* 听儿歌.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8CE1BCE675A00F51BE9 /* 听儿歌.png */; };
+		8890A8D61BCE675A00F51BE9 /* 故事列表.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8CF1BCE675A00F51BE9 /* 故事列表.png */; };
+		8890A8D71BCE675A00F51BE9 /* 讲故事.png in Resources */ = {isa = PBXBuildFile; fileRef = 8890A8D01BCE675A00F51BE9 /* 讲故事.png */; };
+		88B6027C1BCF45E60071DB8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88B6027A1BCF45E60071DB8F /* Main.storyboard */; };
+		88D153161BD103CC00F773FB /* LMKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D153141BD103CC00F773FB /* LMKMainViewController.m */; };
+		88D153171BD103CC00F773FB /* LMKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D153151BD103CC00F773FB /* LMKMainViewController.xib */; };
+		88F7BAA31BD5E0E000EFE492 /* 儿童首页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7BAA21BD5E0E000EFE492 /* 儿童首页.jpg */; };
+		88F7BAA61BD5E25200EFE492 /* MainChooseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7BAA51BD5E25200EFE492 /* MainChooseButton.m */; };
+		88F7BAA81BD5E84600EFE492 /* draw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7BAA71BD5E84600EFE492 /* draw.jpg */; };
+		88F7BB861BD6471900EFE492 /* drawBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7BB851BD6471900EFE492 /* drawBoard.jpg */; };
+		88F7BB881BD64E4600EFE492 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F7BB871BD64E4600EFE492 /* QuartzCore.framework */; };
+		88F7BB8B1BD64E8200EFE492 /* LMKLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7BB8A1BD64E8200EFE492 /* LMKLine.m */; };
+		88F7BB8E1BD64FA700EFE492 /* LMKColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7BB8D1BD64FA700EFE492 /* LMKColorPicker.m */; };
+		88FAD22F1BCF59AB008F5ABB /* LeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FAD22E1BCF59AB008F5ABB /* LeadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8890A87A1BCE5C3300F51BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8890A8581BCE5C3200F51BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8890A85F1BCE5C3300F51BE9;
+			remoteInfo = ChildrenWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		880089E51BDDB92C005FD0E1 /* LMKLeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKLeadViewController.h; sourceTree = "<group>"; };
+		880089E61BDDB92C005FD0E1 /* LMKLeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKLeadViewController.m; sourceTree = "<group>"; };
+		880089E71BDDB92C005FD0E1 /* LMKLeadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMKLeadViewController.xib; sourceTree = "<group>"; };
+		880460111BD87B2900AD3DAB /* button_reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_reset.png; sourceTree = "<group>"; };
+		880460131BD87B3800AD3DAB /* button_erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_erase.png; sourceTree = "<group>"; };
+		880460151BD87BD700AD3DAB /* button_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_save.png; sourceTree = "<group>"; };
+		880460171BD87BE800AD3DAB /* button_pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pen.png; sourceTree = "<group>"; };
+		880460191BD87BF000AD3DAB /* button_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_color.png; sourceTree = "<group>"; };
+		8804601D1BD87C7700AD3DAB /* cemera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cemera.png; sourceTree = "<group>"; };
+		8809812C1BDE2FBB00931ACF /* LMKColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKColorViewController.h; sourceTree = "<group>"; };
+		8809812D1BDE2FBB00931ACF /* LMKColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKColorViewController.m; sourceTree = "<group>"; };
+		8809812E1BDE2FBB00931ACF /* LMKColorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMKColorViewController.xib; sourceTree = "<group>"; };
+		880981311BDE37D700931ACF /* LMKLeadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKLeadButton.h; sourceTree = "<group>"; };
+		880981321BDE37D700931ACF /* LMKLeadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKLeadButton.m; sourceTree = "<group>"; };
+		88749ED51BD718EE00FAE46E /* LMKTouchDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKTouchDrawView.h; sourceTree = "<group>"; };
+		88749ED61BD718EE00FAE46E /* LMKTouchDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKTouchDrawView.m; sourceTree = "<group>"; };
+		88749ED81BD71BAD00FAE46E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88749EDA1BD71BBD00FAE46E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88749EDC1BD71BCC00FAE46E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8882D4351BD8A1D3002A3E0E /* draw1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draw1.png; sourceTree = "<group>"; };
+		8882D4371BD8A302002A3E0E /* Sketch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sketch.plist; path = ../../Sketch.plist; sourceTree = "<group>"; };
+		8882D43A1BD8A636002A3E0E /* LMKRootsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMKRootsView.h; path = ../Model/LMKRootsView.h; sourceTree = "<group>"; };
+		8882D43B1BD8A636002A3E0E /* LMKRootsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMKRootsView.m; path = ../Model/LMKRootsView.m; sourceTree = "<group>"; };
+		8882D4421BD8B6B4002A3E0E /* 乌龟1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌龟1.jpg"; sourceTree = "<group>"; };
+		8882D4431BD8B6B4002A3E0E /* 乌龟2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌龟2.jpg"; sourceTree = "<group>"; };
+		8882D4441BD8B6B4002A3E0E /* 乌龟3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌龟3.jpg"; sourceTree = "<group>"; };
+		8882D4451BD8B6B4002A3E0E /* 乌龟4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌龟4.jpg"; sourceTree = "<group>"; };
+		8882D4461BD8B6B4002A3E0E /* 乌龟5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌龟5.jpg"; sourceTree = "<group>"; };
+		8882D4481BD8B6B4002A3E0E /* 兔子1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子1.jpg"; sourceTree = "<group>"; };
+		8882D4491BD8B6B4002A3E0E /* 兔子10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子10.jpg"; sourceTree = "<group>"; };
+		8882D44A1BD8B6B4002A3E0E /* 兔子2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子2.jpg"; sourceTree = "<group>"; };
+		8882D44B1BD8B6B4002A3E0E /* 兔子3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子3.jpg"; sourceTree = "<group>"; };
+		8882D44C1BD8B6B4002A3E0E /* 兔子4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子4.jpg"; sourceTree = "<group>"; };
+		8882D44D1BD8B6B4002A3E0E /* 兔子5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子5.jpg"; sourceTree = "<group>"; };
+		8882D44E1BD8B6B4002A3E0E /* 兔子6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子6.jpg"; sourceTree = "<group>"; };
+		8882D44F1BD8B6B4002A3E0E /* 兔子7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子7.jpg"; sourceTree = "<group>"; };
+		8882D4501BD8B6B4002A3E0E /* 兔子8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子8.jpg"; sourceTree = "<group>"; };
+		8882D4511BD8B6B4002A3E0E /* 兔子9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "兔子9.jpg"; sourceTree = "<group>"; };
+		8882D4601BD8B6B4002A3E0E /* 大象1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象1.jpg"; sourceTree = "<group>"; };
+		8882D4611BD8B6B4002A3E0E /* 大象2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象2.jpg"; sourceTree = "<group>"; };
+		8882D4621BD8B6B4002A3E0E /* 大象3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象3.jpg"; sourceTree = "<group>"; };
+		8882D4631BD8B6B4002A3E0E /* 大象4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象4.jpg"; sourceTree = "<group>"; };
+		8882D4641BD8B6B4002A3E0E /* 大象5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象5.jpg"; sourceTree = "<group>"; };
+		8882D4651BD8B6B4002A3E0E /* 大象6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大象6.jpg"; sourceTree = "<group>"; };
+		8882D4671BD8B6B4002A3E0E /* 小狗1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗1.jpg"; sourceTree = "<group>"; };
+		8882D4681BD8B6B4002A3E0E /* 小狗2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗2.jpg"; sourceTree = "<group>"; };
+		8882D4691BD8B6B4002A3E0E /* 小狗3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗3.jpg"; sourceTree = "<group>"; };
+		8882D46A1BD8B6B4002A3E0E /* 小狗4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗4.jpg"; sourceTree = "<group>"; };
+		8882D46B1BD8B6B4002A3E0E /* 小狗5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗5.jpg"; sourceTree = "<group>"; };
+		8882D46C1BD8B6B4002A3E0E /* 小狗6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗6.jpg"; sourceTree = "<group>"; };
+		8882D46D1BD8B6B4002A3E0E /* 小狗7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗7.jpg"; sourceTree = "<group>"; };
+		8882D46E1BD8B6B4002A3E0E /* 小狗8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小狗8.jpg"; sourceTree = "<group>"; };
+		8882D4701BD8B6B4002A3E0E /* 小马1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马1.jpg"; sourceTree = "<group>"; };
+		8882D4711BD8B6B4002A3E0E /* 小马2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马2.jpg"; sourceTree = "<group>"; };
+		8882D4721BD8B6B4002A3E0E /* 小马3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马3.jpg"; sourceTree = "<group>"; };
+		8882D4731BD8B6B4002A3E0E /* 小马4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马4.jpg"; sourceTree = "<group>"; };
+		8882D4741BD8B6B4002A3E0E /* 小马5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马5.jpg"; sourceTree = "<group>"; };
+		8882D4751BD8B6B4002A3E0E /* 小马6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马6.jpg"; sourceTree = "<group>"; };
+		8882D4761BD8B6B4002A3E0E /* 小马7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马7.jpg"; sourceTree = "<group>"; };
+		8882D4771BD8B6B4002A3E0E /* 小马8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马8.jpg"; sourceTree = "<group>"; };
+		8882D4781BD8B6B4002A3E0E /* 小马9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小马9.jpg"; sourceTree = "<group>"; };
+		8882D47A1BD8B6B4002A3E0E /* 毛毛虫1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫1.jpg"; sourceTree = "<group>"; };
+		8882D47B1BD8B6B4002A3E0E /* 毛毛虫2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫2.jpg"; sourceTree = "<group>"; };
+		8882D47C1BD8B6B4002A3E0E /* 毛毛虫3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫3.jpg"; sourceTree = "<group>"; };
+		8882D47D1BD8B6B4002A3E0E /* 毛毛虫4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫4.jpg"; sourceTree = "<group>"; };
+		8882D47E1BD8B6B4002A3E0E /* 毛毛虫5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫5.jpg"; sourceTree = "<group>"; };
+		8882D47F1BD8B6B4002A3E0E /* 毛毛虫6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛毛虫6.jpg"; sourceTree = "<group>"; };
+		8882D4811BD8B6B4002A3E0E /* 水濑1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑1.jpg"; sourceTree = "<group>"; };
+		8882D4821BD8B6B4002A3E0E /* 水濑10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑10.jpg"; sourceTree = "<group>"; };
+		8882D4831BD8B6B4002A3E0E /* 水濑11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑11.jpg"; sourceTree = "<group>"; };
+		8882D4841BD8B6B4002A3E0E /* 水濑2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑2.jpg"; sourceTree = "<group>"; };
+		8882D4851BD8B6B4002A3E0E /* 水濑3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑3.jpg"; sourceTree = "<group>"; };
+		8882D4861BD8B6B4002A3E0E /* 水濑4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑4.jpg"; sourceTree = "<group>"; };
+		8882D4871BD8B6B4002A3E0E /* 水濑5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑5.jpg"; sourceTree = "<group>"; };
+		8882D4881BD8B6B4002A3E0E /* 水濑6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑6.jpg"; sourceTree = "<group>"; };
+		8882D4891BD8B6B4002A3E0E /* 水濑7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑7.jpg"; sourceTree = "<group>"; };
+		8882D48A1BD8B6B4002A3E0E /* 水濑8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑8.jpg"; sourceTree = "<group>"; };
+		8882D48B1BD8B6B4002A3E0E /* 水濑9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水濑9.jpg"; sourceTree = "<group>"; };
+		8882D48D1BD8B6B4002A3E0E /* 海豚1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚1.jpg"; sourceTree = "<group>"; };
+		8882D48E1BD8B6B4002A3E0E /* 海豚2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚2.jpg"; sourceTree = "<group>"; };
+		8882D48F1BD8B6B4002A3E0E /* 海豚3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚3.jpg"; sourceTree = "<group>"; };
+		8882D4901BD8B6B4002A3E0E /* 海豚4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚4.jpg"; sourceTree = "<group>"; };
+		8882D4911BD8B6B4002A3E0E /* 海豚5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚5.jpg"; sourceTree = "<group>"; };
+		8882D4921BD8B6B4002A3E0E /* 海豚6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚6.jpg"; sourceTree = "<group>"; };
+		8882D4931BD8B6B4002A3E0E /* 海豚7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海豚7.jpg"; sourceTree = "<group>"; };
+		8882D4951BD8B6B4002A3E0E /* 牧羊犬1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬1.jpg"; sourceTree = "<group>"; };
+		8882D4961BD8B6B4002A3E0E /* 牧羊犬10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬10.jpg"; sourceTree = "<group>"; };
+		8882D4971BD8B6B4002A3E0E /* 牧羊犬11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬11.jpg"; sourceTree = "<group>"; };
+		8882D4981BD8B6B4002A3E0E /* 牧羊犬12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬12.jpg"; sourceTree = "<group>"; };
+		8882D4991BD8B6B4002A3E0E /* 牧羊犬13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬13.jpg"; sourceTree = "<group>"; };
+		8882D49A1BD8B6B4002A3E0E /* 牧羊犬14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬14.jpg"; sourceTree = "<group>"; };
+		8882D49B1BD8B6B4002A3E0E /* 牧羊犬2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬2.jpg"; sourceTree = "<group>"; };
+		8882D49C1BD8B6B4002A3E0E /* 牧羊犬3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬3.jpg"; sourceTree = "<group>"; };
+		8882D49D1BD8B6B4002A3E0E /* 牧羊犬4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬4.jpg"; sourceTree = "<group>"; };
+		8882D49E1BD8B6B4002A3E0E /* 牧羊犬5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬5.jpg"; sourceTree = "<group>"; };
+		8882D49F1BD8B6B4002A3E0E /* 牧羊犬6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬6.jpg"; sourceTree = "<group>"; };
+		8882D4A01BD8B6B4002A3E0E /* 牧羊犬7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬7.jpg"; sourceTree = "<group>"; };
+		8882D4A11BD8B6B4002A3E0E /* 牧羊犬8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬8.jpg"; sourceTree = "<group>"; };
+		8882D4A21BD8B6B4002A3E0E /* 牧羊犬9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牧羊犬9.jpg"; sourceTree = "<group>"; };
+		8882D4A41BD8B6B4002A3E0E /* 犀牛1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛1.jpg"; sourceTree = "<group>"; };
+		8882D4A51BD8B6B4002A3E0E /* 犀牛10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛10.jpg"; sourceTree = "<group>"; };
+		8882D4A61BD8B6B4002A3E0E /* 犀牛11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛11.jpg"; sourceTree = "<group>"; };
+		8882D4A71BD8B6B4002A3E0E /* 犀牛2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛2.jpg"; sourceTree = "<group>"; };
+		8882D4A81BD8B6B4002A3E0E /* 犀牛3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛3.jpg"; sourceTree = "<group>"; };
+		8882D4A91BD8B6B4002A3E0E /* 犀牛4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛4.jpg"; sourceTree = "<group>"; };
+		8882D4AA1BD8B6B4002A3E0E /* 犀牛5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛5.jpg"; sourceTree = "<group>"; };
+		8882D4AB1BD8B6B4002A3E0E /* 犀牛6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛6.jpg"; sourceTree = "<group>"; };
+		8882D4AC1BD8B6B4002A3E0E /* 犀牛7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛7.jpg"; sourceTree = "<group>"; };
+		8882D4AD1BD8B6B4002A3E0E /* 犀牛8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛8.jpg"; sourceTree = "<group>"; };
+		8882D4AE1BD8B6B4002A3E0E /* 犀牛9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犀牛9.jpg"; sourceTree = "<group>"; };
+		8882D4B01BD8B6B4002A3E0E /* 猫1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫1.jpg"; sourceTree = "<group>"; };
+		8882D4B11BD8B6B4002A3E0E /* 猫2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫2.jpg"; sourceTree = "<group>"; };
+		8882D4B21BD8B6B4002A3E0E /* 猫3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫3.jpg"; sourceTree = "<group>"; };
+		8882D4B31BD8B6B4002A3E0E /* 猫4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫4.jpg"; sourceTree = "<group>"; };
+		8882D4B41BD8B6B4002A3E0E /* 猫5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫5.jpg"; sourceTree = "<group>"; };
+		8882D4B51BD8B6B4002A3E0E /* 猫6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫6.jpg"; sourceTree = "<group>"; };
+		8882D4B61BD8B6B4002A3E0E /* 猫7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫7.jpg"; sourceTree = "<group>"; };
+		8882D4B71BD8B6B4002A3E0E /* 猫8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫8.jpg"; sourceTree = "<group>"; };
+		8882D4B91BD8B6B4002A3E0E /* 猫头鹰1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰1.jpg"; sourceTree = "<group>"; };
+		8882D4BA1BD8B6B4002A3E0E /* 猫头鹰2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰2.jpg"; sourceTree = "<group>"; };
+		8882D4BB1BD8B6B4002A3E0E /* 猫头鹰3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰3.jpg"; sourceTree = "<group>"; };
+		8882D4BC1BD8B6B4002A3E0E /* 猫头鹰4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰4.jpg"; sourceTree = "<group>"; };
+		8882D4BD1BD8B6B4002A3E0E /* 猫头鹰5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰5.jpg"; sourceTree = "<group>"; };
+		8882D4BE1BD8B6B4002A3E0E /* 猫头鹰6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰6.jpg"; sourceTree = "<group>"; };
+		8882D4BF1BD8B6B4002A3E0E /* 猫头鹰7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫头鹰7.jpg"; sourceTree = "<group>"; };
+		8882D4C11BD8B6B4002A3E0E /* 猴子1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子1.jpg"; sourceTree = "<group>"; };
+		8882D4C21BD8B6B4002A3E0E /* 猴子2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子2.jpg"; sourceTree = "<group>"; };
+		8882D4C31BD8B6B4002A3E0E /* 猴子3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子3.jpg"; sourceTree = "<group>"; };
+		8882D4C41BD8B6B4002A3E0E /* 猴子4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子4.jpg"; sourceTree = "<group>"; };
+		8882D4C51BD8B6B4002A3E0E /* 猴子5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子5.jpg"; sourceTree = "<group>"; };
+		8882D4C61BD8B6B4002A3E0E /* 猴子6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子6.jpg"; sourceTree = "<group>"; };
+		8882D4C71BD8B6B4002A3E0E /* 猴子7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子7.jpg"; sourceTree = "<group>"; };
+		8882D4C81BD8B6B4002A3E0E /* 猴子8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猴子8.jpg"; sourceTree = "<group>"; };
+		8882D4CA1BD8B6B4002A3E0E /* 老鼠1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老鼠1.jpg"; sourceTree = "<group>"; };
+		8882D4CB1BD8B6B4002A3E0E /* 老鼠2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老鼠2.jpg"; sourceTree = "<group>"; };
+		8882D4CC1BD8B6B4002A3E0E /* 老鼠3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "老鼠3.jpg"; sourceTree = "<group>"; };
+		8882D4CF1BD8B6B4002A3E0E /* 草莓1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓1.jpg"; sourceTree = "<group>"; };
+		8882D4D01BD8B6B4002A3E0E /* 草莓2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓2.jpg"; sourceTree = "<group>"; };
+		8882D4D11BD8B6B4002A3E0E /* 草莓3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓3.jpg"; sourceTree = "<group>"; };
+		8882D4D21BD8B6B4002A3E0E /* 草莓4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓4.jpg"; sourceTree = "<group>"; };
+		8882D4D31BD8B6B4002A3E0E /* 草莓5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓5.jpg"; sourceTree = "<group>"; };
+		8882D4D41BD8B6B4002A3E0E /* 草莓6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓6.jpg"; sourceTree = "<group>"; };
+		8882D4D61BD8B6B4002A3E0E /* 蚂蚁1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁1.jpg"; sourceTree = "<group>"; };
+		8882D4D71BD8B6B4002A3E0E /* 蚂蚁2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁2.jpg"; sourceTree = "<group>"; };
+		8882D4D81BD8B6B4002A3E0E /* 蚂蚁3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁3.jpg"; sourceTree = "<group>"; };
+		8882D4D91BD8B6B4002A3E0E /* 蚂蚁4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁4.jpg"; sourceTree = "<group>"; };
+		8882D4DA1BD8B6B4002A3E0E /* 蚂蚁5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁5.jpg"; sourceTree = "<group>"; };
+		8882D4DB1BD8B6B4002A3E0E /* 蚂蚁6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁6.jpg"; sourceTree = "<group>"; };
+		8882D4DC1BD8B6B4002A3E0E /* 蚂蚁7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁7.jpg"; sourceTree = "<group>"; };
+		8882D4DD1BD8B6B4002A3E0E /* 蚂蚁8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁8.jpg"; sourceTree = "<group>"; };
+		8882D4DE1BD8B6B4002A3E0E /* 蚂蚁9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蚂蚁9.jpg"; sourceTree = "<group>"; };
+		8882D4E01BD8B6B4002A3E0E /* 蛇1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇1.jpg"; sourceTree = "<group>"; };
+		8882D4E11BD8B6B4002A3E0E /* 蛇2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇2.jpg"; sourceTree = "<group>"; };
+		8882D4E21BD8B6B4002A3E0E /* 蛇3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇3.jpg"; sourceTree = "<group>"; };
+		8882D4E31BD8B6B4002A3E0E /* 蛇4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇4.jpg"; sourceTree = "<group>"; };
+		8882D4E41BD8B6B4002A3E0E /* 蛇5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇5.jpg"; sourceTree = "<group>"; };
+		8882D4E51BD8B6B4002A3E0E /* 蛇6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇6.jpg"; sourceTree = "<group>"; };
+		8882D4E71BD8B6B4002A3E0E /* 蜜蜂1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂1.jpg"; sourceTree = "<group>"; };
+		8882D4E81BD8B6B4002A3E0E /* 蜜蜂2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂2.jpg"; sourceTree = "<group>"; };
+		8882D4E91BD8B6B4002A3E0E /* 蜜蜂3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂3.jpg"; sourceTree = "<group>"; };
+		8882D4EA1BD8B6B4002A3E0E /* 蜜蜂4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂4.jpg"; sourceTree = "<group>"; };
+		8882D4EB1BD8B6B4002A3E0E /* 蜜蜂5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂5.jpg"; sourceTree = "<group>"; };
+		8882D4EC1BD8B6B4002A3E0E /* 蜜蜂6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜜蜂6.jpg"; sourceTree = "<group>"; };
+		8882D4EE1BD8B6B4002A3E0E /* 蝴蝶1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蝴蝶1.jpg"; sourceTree = "<group>"; };
+		8882D4EF1BD8B6B4002A3E0E /* 蝴蝶2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蝴蝶2.jpg"; sourceTree = "<group>"; };
+		8882D4F01BD8B6B4002A3E0E /* 蝴蝶3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蝴蝶3.jpg"; sourceTree = "<group>"; };
+		8882D4F11BD8B6B4002A3E0E /* 蝴蝶4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蝴蝶4.jpg"; sourceTree = "<group>"; };
+		8882D4F21BD8B6B4002A3E0E /* 蝴蝶5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蝴蝶5.jpg"; sourceTree = "<group>"; };
+		8882D4F41BD8B6B4002A3E0E /* 西红柿1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西红柿1.jpg"; sourceTree = "<group>"; };
+		8882D4F51BD8B6B4002A3E0E /* 西红柿2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西红柿2.jpg"; sourceTree = "<group>"; };
+		8882D4F61BD8B6B4002A3E0E /* 西红柿3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西红柿3.jpg"; sourceTree = "<group>"; };
+		8882D4F71BD8B6B4002A3E0E /* 西红柿4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西红柿4.jpg"; sourceTree = "<group>"; };
+		8882D4F91BD8B6B4002A3E0E /* 青蛙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙.jpg"; sourceTree = "<group>"; };
+		8882D4FA1BD8B6B4002A3E0E /* 青蛙1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙1.jpg"; sourceTree = "<group>"; };
+		8882D4FB1BD8B6B4002A3E0E /* 青蛙2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙2.jpg"; sourceTree = "<group>"; };
+		8882D4FC1BD8B6B4002A3E0E /* 青蛙3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙3.jpg"; sourceTree = "<group>"; };
+		8882D4FD1BD8B6B4002A3E0E /* 青蛙4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙4.jpg"; sourceTree = "<group>"; };
+		8882D4FE1BD8B6B4002A3E0E /* 青蛙5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙5.jpg"; sourceTree = "<group>"; };
+		8882D4FF1BD8B6B4002A3E0E /* 青蛙6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青蛙6.jpg"; sourceTree = "<group>"; };
+		8882D5061BD8B6B4002A3E0E /* 驯鹿1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿1.jpg"; sourceTree = "<group>"; };
+		8882D5071BD8B6B4002A3E0E /* 驯鹿2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿2.jpg"; sourceTree = "<group>"; };
+		8882D5081BD8B6B4002A3E0E /* 驯鹿3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿3.jpg"; sourceTree = "<group>"; };
+		8882D5091BD8B6B4002A3E0E /* 驯鹿4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿4.jpg"; sourceTree = "<group>"; };
+		8882D50A1BD8B6B4002A3E0E /* 驯鹿5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿5.jpg"; sourceTree = "<group>"; };
+		8882D50B1BD8B6B4002A3E0E /* 驯鹿6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿6.jpg"; sourceTree = "<group>"; };
+		8882D50C1BD8B6B4002A3E0E /* 驯鹿7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "驯鹿7.jpg"; sourceTree = "<group>"; };
+		8882D50E1BD8B6B4002A3E0E /* 鸭子1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭子1.jpg"; sourceTree = "<group>"; };
+		8882D50F1BD8B6B4002A3E0E /* 鸭子2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭子2.jpg"; sourceTree = "<group>"; };
+		8882D5101BD8B6B4002A3E0E /* 鸭子3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭子3.jpg"; sourceTree = "<group>"; };
+		8882D5111BD8B6B4002A3E0E /* 鸭子4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭子4.jpg"; sourceTree = "<group>"; };
+		8882D5121BD8B6B4002A3E0E /* 鸭子5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭子5.jpg"; sourceTree = "<group>"; };
+		8882D5141BD8B6B4002A3E0E /* 鸽子1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子1.jpg"; sourceTree = "<group>"; };
+		8882D5151BD8B6B4002A3E0E /* 鸽子2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子2.jpg"; sourceTree = "<group>"; };
+		8882D5161BD8B6B4002A3E0E /* 鸽子3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子3.jpg"; sourceTree = "<group>"; };
+		8882D5171BD8B6B4002A3E0E /* 鸽子4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子4.jpg"; sourceTree = "<group>"; };
+		8882D5181BD8B6B4002A3E0E /* 鸽子5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子5.jpg"; sourceTree = "<group>"; };
+		8882D5191BD8B6B4002A3E0E /* 鸽子6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸽子6.jpg"; sourceTree = "<group>"; };
+		8882D5D81BD8C2E4002A3E0E /* button_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_right.png; sourceTree = "<group>"; };
+		8882D5D91BD8C2E4002A3E0E /* button_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_return.png; sourceTree = "<group>"; };
+		8882D5DC1BD8C2E9002A3E0E /* button_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_left.png; sourceTree = "<group>"; };
+		888978881BE0563000300D0D /* GBXGoToPlayFlowerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlayFlowerController.h; sourceTree = "<group>"; };
+		888978891BE0563000300D0D /* GBXGoToPlayFlowerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlayFlowerController.m; sourceTree = "<group>"; };
+		8889788A1BE0563000300D0D /* GBXGoToPlayFlowerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlayFlowerController.xib; sourceTree = "<group>"; };
+		8889788B1BE0563000300D0D /* GBXGoToPlayFruitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlayFruitController.h; sourceTree = "<group>"; };
+		8889788C1BE0563000300D0D /* GBXGoToPlayFruitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlayFruitController.m; sourceTree = "<group>"; };
+		8889788D1BE0563000300D0D /* GBXGoToPlayFruitController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlayFruitController.xib; sourceTree = "<group>"; };
+		8889788E1BE0563000300D0D /* GBXGoToPlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBXGoToPlayItem.h; path = ../Controller/GBXGoToPlayItem.h; sourceTree = "<group>"; };
+		8889788F1BE0563000300D0D /* GBXGoToPlayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBXGoToPlayItem.m; path = ../Controller/GBXGoToPlayItem.m; sourceTree = "<group>"; };
+		888978901BE0563000300D0D /* GBXGoToPlaySideAnimalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlaySideAnimalController.h; sourceTree = "<group>"; };
+		888978911BE0563000300D0D /* GBXGoToPlaySideAnimalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlaySideAnimalController.m; sourceTree = "<group>"; };
+		888978921BE0563000300D0D /* GBXGoToPlaySideAnimalController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlaySideAnimalController.xib; sourceTree = "<group>"; };
+		888978931BE0563000300D0D /* GBXGoToPlayTreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlayTreeController.h; sourceTree = "<group>"; };
+		888978941BE0563000300D0D /* GBXGoToPlayTreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlayTreeController.m; sourceTree = "<group>"; };
+		888978951BE0563000300D0D /* GBXGoToPlayTreeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlayTreeController.xib; sourceTree = "<group>"; };
+		888978961BE0563000300D0D /* GBXGoToPlayVegetableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlayVegetableController.h; sourceTree = "<group>"; };
+		888978971BE0563000300D0D /* GBXGoToPlayVegetableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlayVegetableController.m; sourceTree = "<group>"; };
+		888978981BE0563000300D0D /* GBXGoToPlayVegetableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlayVegetableController.xib; sourceTree = "<group>"; };
+		888978991BE0563000300D0D /* GBXGoToPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBXGoToPlayView.h; path = ../Controller/GBXGoToPlayView.h; sourceTree = "<group>"; };
+		8889789A1BE0563000300D0D /* GBXGoToPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBXGoToPlayView.m; path = ../Controller/GBXGoToPlayView.m; sourceTree = "<group>"; };
+		8889789B1BE0563000300D0D /* GBXGoToPlayWildLifeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBXGoToPlayWildLifeController.h; sourceTree = "<group>"; };
+		8889789C1BE0563000300D0D /* GBXGoToPlayWildLifeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBXGoToPlayWildLifeController.m; sourceTree = "<group>"; };
+		8889789D1BE0563000300D0D /* GBXGoToPlayWildLifeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBXGoToPlayWildLifeController.xib; sourceTree = "<group>"; };
+		888978A01BE0563000300D0D /* 月季.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月季.png"; sourceTree = "<group>"; };
+		888978A11BE0563000300D0D /* 杜鹃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杜鹃.png"; sourceTree = "<group>"; };
+		888978A21BE0563000300D0D /* 梅花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梅花.png"; sourceTree = "<group>"; };
+		888978A31BE0563000300D0D /* 爬山虎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "爬山虎.png"; sourceTree = "<group>"; };
+		888978A41BE0563000300D0D /* 牡丹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡丹.png"; sourceTree = "<group>"; };
+		888978A51BE0563000300D0D /* 百合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "百合.png"; sourceTree = "<group>"; };
+		888978A61BE0563000300D0D /* 红玫瑰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红玫瑰.png"; sourceTree = "<group>"; };
+		888978A71BE0563000300D0D /* 茉莉花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茉莉花.png"; sourceTree = "<group>"; };
+		888978A81BE0563000300D0D /* 荷花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荷花.png"; sourceTree = "<group>"; };
+		888978A91BE0563000300D0D /* 菊花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菊花.png"; sourceTree = "<group>"; };
+		888978AA1BE0563000300D0D /* 蒲公英.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蒲公英.png"; sourceTree = "<group>"; };
+		888978AC1BE0563000300D0D /* 桃.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃.png"; sourceTree = "<group>"; };
+		888978AD1BE0563000300D0D /* 桔子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桔子.png"; sourceTree = "<group>"; };
+		888978AE1BE0563000300D0D /* 梨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梨.png"; sourceTree = "<group>"; };
+		888978AF1BE0563000300D0D /* 榴莲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "榴莲.png"; sourceTree = "<group>"; };
+		888978B01BE0563000300D0D /* 橙子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橙子.png"; sourceTree = "<group>"; };
+		888978B11BE0563000300D0D /* 苹果.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苹果.png"; sourceTree = "<group>"; };
+		888978B21BE0563000300D0D /* 荔枝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "荔枝.png"; sourceTree = "<group>"; };
+		888978B31BE0563000300D0D /* 葡萄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葡萄.png"; sourceTree = "<group>"; };
+		888978B41BE0563000300D0D /* 西瓜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "西瓜.png"; sourceTree = "<group>"; };
+		888978B51BE0563000300D0D /* 香蕉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香蕉.png"; sourceTree = "<group>"; };
+		888978B71BE0563000300D0D /* 兔子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兔子.png"; sourceTree = "<group>"; };
+		888978B81BE0563000300D0D /* 公鸡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公鸡.png"; sourceTree = "<group>"; };
+		888978B91BE0563000300D0D /* 毛驴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毛驴.png"; sourceTree = "<group>"; };
+		888978BA1BE0563000300D0D /* 牛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牛.png"; sourceTree = "<group>"; };
+		888978BB1BE0563000300D0D /* 狗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狗.png"; sourceTree = "<group>"; };
+		888978BC1BE0563000300D0D /* 猪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪.png"; sourceTree = "<group>"; };
+		888978BD1BE0563000300D0D /* 猫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猫.png"; sourceTree = "<group>"; };
+		888978BE1BE0563000300D0D /* 羊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "羊.png"; sourceTree = "<group>"; };
+		888978BF1BE0563000300D0D /* 马.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马.png"; sourceTree = "<group>"; };
+		888978C01BE0563000300D0D /* 鸭子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸭子.png"; sourceTree = "<group>"; };
+		888978C21BE0563000300D0D /* 杏树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杏树.png"; sourceTree = "<group>"; };
+		888978C31BE0563000300D0D /* 杨树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杨树.png"; sourceTree = "<group>"; };
+		888978C41BE0563000300D0D /* 松树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "松树.png"; sourceTree = "<group>"; };
+		888978C51BE0563000300D0D /* 枣树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枣树.png"; sourceTree = "<group>"; };
+		888978C61BE0563000300D0D /* 柳树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柳树.png"; sourceTree = "<group>"; };
+		888978C71BE0563000300D0D /* 桃树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃树.png"; sourceTree = "<group>"; };
+		888978C81BE0563000300D0D /* 桑树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桑树.png"; sourceTree = "<group>"; };
+		888978C91BE0563000300D0D /* 梧桐树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梧桐树.png"; sourceTree = "<group>"; };
+		888978CA1BE0563000300D0D /* 梨树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梨树.png"; sourceTree = "<group>"; };
+		888978CB1BE0563000300D0D /* 槐树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "槐树.png"; sourceTree = "<group>"; };
+		888978CD1BE0563000300D0D /* 冬瓜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冬瓜.png"; sourceTree = "<group>"; };
+		888978CE1BE0563000300D0D /* 土豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土豆.png"; sourceTree = "<group>"; };
+		888978CF1BE0563000300D0D /* 大白菜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大白菜.png"; sourceTree = "<group>"; };
+		888978D01BE0563000300D0D /* 胡萝卜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "胡萝卜.png"; sourceTree = "<group>"; };
+		888978D11BE0563000300D0D /* 茄子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茄子.png"; sourceTree = "<group>"; };
+		888978D21BE0563000300D0D /* 葱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葱.png"; sourceTree = "<group>"; };
+		888978D31BE0563000300D0D /* 西红柿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "西红柿.png"; sourceTree = "<group>"; };
+		888978D41BE0563000300D0D /* 豆角.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豆角.png"; sourceTree = "<group>"; };
+		888978D51BE0563000300D0D /* 青椒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "青椒.png"; sourceTree = "<group>"; };
+		888978D61BE0563000300D0D /* 黄瓜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄瓜.png"; sourceTree = "<group>"; };
+		888978D81BE0563000300D0D /* 企鹅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "企鹅.png"; sourceTree = "<group>"; };
+		888978D91BE0563000300D0D /* 大象.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大象.png"; sourceTree = "<group>"; };
+		888978DA1BE0563000300D0D /* 孔雀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "孔雀.png"; sourceTree = "<group>"; };
+		888978DB1BE0563000300D0D /* 梅花鹿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "梅花鹿.png"; sourceTree = "<group>"; };
+		888978DC1BE0563000300D0D /* 熊猫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "熊猫.png"; sourceTree = "<group>"; };
+		888978DD1BE0563000300D0D /* 狮子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狮子.png"; sourceTree = "<group>"; };
+		888978DE1BE0563000300D0D /* 猴子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猴子.png"; sourceTree = "<group>"; };
+		888978DF1BE0563000300D0D /* 老虎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老虎.png"; sourceTree = "<group>"; };
+		888978E01BE0563000300D0D /* 长颈鹿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长颈鹿.png"; sourceTree = "<group>"; };
+		888978E11BE0563000300D0D /* 黑熊.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黑熊.png"; sourceTree = "<group>"; };
+		888978E31BE0563000300D0D /* FlowerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerModel.h; sourceTree = "<group>"; };
+		888978E41BE0563000300D0D /* FlowerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerModel.m; sourceTree = "<group>"; };
+		888978E51BE0563000300D0D /* FruitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitModel.h; sourceTree = "<group>"; };
+		888978E61BE0563000300D0D /* FruitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitModel.m; sourceTree = "<group>"; };
+		888978E71BE0563000300D0D /* SideAnimalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideAnimalModel.h; sourceTree = "<group>"; };
+		888978E81BE0563000300D0D /* SideAnimalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideAnimalModel.m; sourceTree = "<group>"; };
+		888978E91BE0563000300D0D /* TreeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeModel.h; sourceTree = "<group>"; };
+		888978EA1BE0563000300D0D /* TreeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeModel.m; sourceTree = "<group>"; };
+		888978EB1BE0563000300D0D /* VegetableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegetableModel.h; sourceTree = "<group>"; };
+		888978EC1BE0563000300D0D /* VegetableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegetableModel.m; sourceTree = "<group>"; };
+		888978ED1BE0563000300D0D /* WildLifeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildLifeModel.h; sourceTree = "<group>"; };
+		888978EE1BE0563000300D0D /* WildLifeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildLifeModel.m; sourceTree = "<group>"; };
+		888978F01BE0563000300D0D /* flower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flower.plist; sourceTree = "<group>"; };
+		888978F11BE0563000300D0D /* Fruit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fruit.plist; sourceTree = "<group>"; };
+		888978F21BE0563000300D0D /* SideAnimal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SideAnimal.plist; sourceTree = "<group>"; };
+		888978F31BE0563000300D0D /* Tree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tree.plist; sourceTree = "<group>"; };
+		888978F41BE0563000300D0D /* Vegetable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Vegetable.plist; sourceTree = "<group>"; };
+		888978F51BE0563000300D0D /* WildLife.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WildLife.plist; sourceTree = "<group>"; };
+		888979501BE0582500300D0D /* CalculateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateViewController.h; sourceTree = "<group>"; };
+		888979511BE0582500300D0D /* CalculateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateViewController.m; sourceTree = "<group>"; };
+		888979521BE0582500300D0D /* GLLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLMainViewController.h; sourceTree = "<group>"; };
+		888979531BE0582500300D0D /* GLLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLMainViewController.m; sourceTree = "<group>"; };
+		888979541BE0582500300D0D /* GLLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLLMainViewController.xib; sourceTree = "<group>"; };
+		888979551BE0582500300D0D /* NumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberViewController.h; sourceTree = "<group>"; };
+		888979561BE0582500300D0D /* NumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberViewController.m; sourceTree = "<group>"; };
+		888979571BE0582500300D0D /* TwoCalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoCalViewController.h; sourceTree = "<group>"; };
+		888979581BE0582500300D0D /* TwoCalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoCalViewController.m; sourceTree = "<group>"; };
+		8889795D1BE0582500300D0D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		8889795E1BE0582500300D0D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		8889795F1BE0582500300D0D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		888979601BE0582500300D0D /* 算术.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "算术.jpg"; sourceTree = "<group>"; };
+		888979611BE0582500300D0D /* 算术1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "算术1.jpg"; sourceTree = "<group>"; };
+		888979621BE0582500300D0D /* 算术2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "算术2.jpg"; sourceTree = "<group>"; };
+		888979631BE0582500300D0D /* 草莓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "草莓.jpg"; sourceTree = "<group>"; };
+		888979641BE0582500300D0D /* 菠萝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "菠萝.jpg"; sourceTree = "<group>"; };
+		888979651BE0582500300D0D /* 香蕉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香蕉.jpg"; sourceTree = "<group>"; };
+		88897ABD1BE0CF4200300D0D /* YSHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHMainViewController.h; sourceTree = "<group>"; };
+		88897ABE1BE0CF4200300D0D /* YSHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHMainViewController.m; sourceTree = "<group>"; };
+		88897ABF1BE0CF4200300D0D /* YSHMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSHMainViewController.xib; sourceTree = "<group>"; };
+		88897AC01BE0CF4200300D0D /* YSHplaySongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHplaySongsViewController.h; sourceTree = "<group>"; };
+		88897AC11BE0CF4200300D0D /* YSHplaySongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHplaySongsViewController.m; sourceTree = "<group>"; };
+		88897AC21BE0CF4200300D0D /* YSHplaySongsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSHplaySongsViewController.xib; sourceTree = "<group>"; };
+		88897AC31BE0CF4200300D0D /* YSHSingSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHSingSongViewController.h; sourceTree = "<group>"; };
+		88897AC41BE0CF4200300D0D /* YSHSingSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHSingSongViewController.m; sourceTree = "<group>"; };
+		88897AC51BE0CF4200300D0D /* YSHSingSongViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSHSingSongViewController.xib; sourceTree = "<group>"; };
+		88897AC61BE0CF4200300D0D /* YSHTellStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHTellStoryViewController.h; sourceTree = "<group>"; };
+		88897AC71BE0CF4200300D0D /* YSHTellStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHTellStoryViewController.m; sourceTree = "<group>"; };
+		88897AC81BE0CF4200300D0D /* YSHTellStoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSHTellStoryViewController.xib; sourceTree = "<group>"; };
+		88897ACA1BE0CF4200300D0D /* YSHSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHSong.h; sourceTree = "<group>"; };
+		88897ACB1BE0CF4200300D0D /* YSHSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHSong.m; sourceTree = "<group>"; };
+		88897ACC1BE0CF4200300D0D /* YSHStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHStory.h; sourceTree = "<group>"; };
+		88897ACD1BE0CF4200300D0D /* YSHStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHStory.m; sourceTree = "<group>"; };
+		88897ACF1BE0CF4200300D0D /* YSHMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHMainView.h; sourceTree = "<group>"; };
+		88897AD01BE0CF4200300D0D /* YSHMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHMainView.m; sourceTree = "<group>"; };
+		88897AD11BE0CF4200300D0D /* YSHTellStoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSHTellStoryView.h; sourceTree = "<group>"; };
+		88897AD21BE0CF4200300D0D /* YSHTellStoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSHTellStoryView.m; sourceTree = "<group>"; };
+		88897AE11BE0D00200300D0D /* aboveMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboveMusic.png; sourceTree = "<group>"; };
+		88897AE21BE0D00200300D0D /* backgroundImage5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage5.jpg; sourceTree = "<group>"; };
+		88897AE31BE0D00200300D0D /* circleClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleClose.png; sourceTree = "<group>"; };
+		88897AE41BE0D00200300D0D /* circleOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleOpen.png; sourceTree = "<group>"; };
+		88897AE51BE0D00200300D0D /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		88897AE61BE0D00200300D0D /* nextMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextMusic.png; sourceTree = "<group>"; };
+		88897AE71BE0D00200300D0D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		88897AE81BE0D00200300D0D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		88897AE91BE0D00200300D0D /* randomClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomClose.png; sourceTree = "<group>"; };
+		88897AEA1BE0D00200300D0D /* randomOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randomOpen.png; sourceTree = "<group>"; };
+		88897AEB1BE0D00200300D0D /* sliderThumb_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb_small.png; sourceTree = "<group>"; };
+		88897AEC1BE0D00200300D0D /* soundSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundSlider.png; sourceTree = "<group>"; };
+		88897AED1BE0D00200300D0D /* sleep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sleep.jpg; sourceTree = "<group>"; };
+		88897AF01BE0D00300300D0D /* 儿童首页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "儿童首页.png"; sourceTree = "<group>"; };
+		88897AF11BE0D00300300D0D /* 儿童首页_meitu_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "儿童首页_meitu_1.jpg"; sourceTree = "<group>"; };
+		88897AF21BE0D00300300D0D /* 单个故事.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单个故事.png"; sourceTree = "<group>"; };
+		88897AF31BE0D00300300D0D /* 单个故事_meitu_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "单个故事_meitu_1.jpg"; sourceTree = "<group>"; };
+		88897AF41BE0D00300300D0D /* 单个故事_meitu_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "单个故事_meitu_2.jpg"; sourceTree = "<group>"; };
+		88897AF51BE0D00300300D0D /* 单曲哥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单曲哥.png"; sourceTree = "<group>"; };
+		88897AF61BE0D00300300D0D /* 单曲哥_meitu_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "单曲哥_meitu_3.jpg"; sourceTree = "<group>"; };
+		88897AF71BE0D00300300D0D /* 听儿歌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "听儿歌.png"; sourceTree = "<group>"; };
+		88897AF81BE0D00300300D0D /* 故事列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "故事列表.png"; sourceTree = "<group>"; };
+		88897AF91BE0D00300300D0D /* 讲故事.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "讲故事.png"; sourceTree = "<group>"; };
+		88897AFA1BE0D00300300D0D /* 讲故事_meitu_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "讲故事_meitu_3.jpg"; sourceTree = "<group>"; };
+		88897AFB1BE0D00300300D0D /* 儿童首页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "儿童首页.jpg"; sourceTree = "<group>"; };
+		88897AFC1BE0D00300300D0D /* 听儿歌_meitu_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "听儿歌_meitu_1.jpg"; sourceTree = "<group>"; };
+		88897AFD1BE0D00300300D0D /* 故事列表_meitu_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "故事列表_meitu_3.png"; sourceTree = "<group>"; };
+		88897B001BE0D00300300D0D /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		88897B011BE0D00300300D0D /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		88897B021BE0D00300300D0D /* 李白.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "李白.mp3"; sourceTree = "<group>"; };
+		88897B031BE0D00300300D0D /* 李荣浩-李白.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "李荣浩-李白.lrc"; sourceTree = "<group>"; };
+		88897B041BE0D00300300D0D /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		88897B051BE0D00300300D0D /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		88897B061BE0D00300300D0D /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		88897B071BE0D00300300D0D /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		88897B081BE0D00300300D0D /* YSHSongs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YSHSongs.plist; sourceTree = "<group>"; };
+		8890A8601BCE5C3300F51BE9 /* ChildrenWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildrenWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8890A8641BCE5C3300F51BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8890A8651BCE5C3300F51BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8890A8671BCE5C3300F51BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8890A8681BCE5C3300F51BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8890A8701BCE5C3300F51BE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8890A8731BCE5C3300F51BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8890A8791BCE5C3300F51BE9 /* ChildrenWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildrenWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8890A87E1BCE5C3300F51BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8890A87F1BCE5C3300F51BE9 /* ChildrenWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildrenWorldTests.m; sourceTree = "<group>"; };
+		8890A8921BCE5EAF00F51BE9 /* LeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeadViewController.h; path = ../LeadViewController.h; sourceTree = "<group>"; };
+		8890A8931BCE5EAF00F51BE9 /* LeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeadViewController.m; path = ../LeadViewController.m; sourceTree = "<group>"; };
+		8890A89F1BCE623300F51BE9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		8890A8A01BCE623300F51BE9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		8890A8A31BCE646000F51BE9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		8890A8BA1BCE65FD00F51BE9 /* MainImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainImageView.h; sourceTree = "<group>"; };
+		8890A8BB1BCE65FD00F51BE9 /* MainImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainImageView.m; sourceTree = "<group>"; };
+		8890A8C11BCE669100F51BE9 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+image.h"; sourceTree = "<group>"; };
+		8890A8C21BCE669100F51BE9 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+image.m"; sourceTree = "<group>"; };
+		8890A8C31BCE669100F51BE9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8890A8C41BCE669100F51BE9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8890A8C91BCE66E000F51BE9 /* ChildrenWorld.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenWorld.pch; sourceTree = "<group>"; };
+		8890A8CC1BCE675A00F51BE9 /* 单个故事.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单个故事.png"; sourceTree = "<group>"; };
+		8890A8CD1BCE675A00F51BE9 /* 单曲哥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单曲哥.png"; sourceTree = "<group>"; };
+		8890A8CE1BCE675A00F51BE9 /* 听儿歌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "听儿歌.png"; sourceTree = "<group>"; };
+		8890A8CF1BCE675A00F51BE9 /* 故事列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "故事列表.png"; sourceTree = "<group>"; };
+		8890A8D01BCE675A00F51BE9 /* 讲故事.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "讲故事.png"; sourceTree = "<group>"; };
+		88B6027B1BCF45E60071DB8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88D153131BD103CC00F773FB /* LMKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKMainViewController.h; sourceTree = "<group>"; };
+		88D153141BD103CC00F773FB /* LMKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKMainViewController.m; sourceTree = "<group>"; };
+		88D153151BD103CC00F773FB /* LMKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMKMainViewController.xib; sourceTree = "<group>"; };
+		88F7BAA21BD5E0E000EFE492 /* 儿童首页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "儿童首页.jpg"; sourceTree = "<group>"; };
+		88F7BAA41BD5E25200EFE492 /* MainChooseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainChooseButton.h; sourceTree = "<group>"; };
+		88F7BAA51BD5E25200EFE492 /* MainChooseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainChooseButton.m; sourceTree = "<group>"; };
+		88F7BAA71BD5E84600EFE492 /* draw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = draw.jpg; sourceTree = "<group>"; };
+		88F7BB851BD6471900EFE492 /* drawBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawBoard.jpg; sourceTree = "<group>"; };
+		88F7BB871BD64E4600EFE492 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88F7BB891BD64E8200EFE492 /* LMKLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKLine.h; sourceTree = "<group>"; };
+		88F7BB8A1BD64E8200EFE492 /* LMKLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKLine.m; sourceTree = "<group>"; };
+		88F7BB8C1BD64FA700EFE492 /* LMKColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMKColorPicker.h; sourceTree = "<group>"; };
+		88F7BB8D1BD64FA700EFE492 /* LMKColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMKColorPicker.m; sourceTree = "<group>"; };
+		88FAD22D1BCF59AB008F5ABB /* LeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadView.h; sourceTree = "<group>"; };
+		88FAD22E1BCF59AB008F5ABB /* LeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8890A85D1BCE5C3300F51BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88749EDD1BD71BCC00FAE46E /* Foundation.framework in Frameworks */,
+				88749EDB1BD71BBD00FAE46E /* UIKit.framework in Frameworks */,
+				88749ED91BD71BAD00FAE46E /* CoreGraphics.framework in Frameworks */,
+				88F7BB881BD64E4600EFE492 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890A8761BCE5C3300F51BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8882D4391BD8A313002A3E0E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4371BD8A302002A3E0E /* Sketch.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		8882D4401BD8B6B4002A3E0E /* 简笔画 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4411BD8B6B4002A3E0E /* 乌龟 */,
+				8882D4471BD8B6B4002A3E0E /* 兔子 */,
+				8882D45F1BD8B6B4002A3E0E /* 大象 */,
+				8882D4661BD8B6B4002A3E0E /* 小狗 */,
+				8882D46F1BD8B6B4002A3E0E /* 小马 */,
+				8882D4791BD8B6B4002A3E0E /* 毛毛虫 */,
+				8882D4801BD8B6B4002A3E0E /* 水濑 */,
+				8882D48C1BD8B6B4002A3E0E /* 海豚 */,
+				8882D4941BD8B6B4002A3E0E /* 牧羊犬 */,
+				8882D4A31BD8B6B4002A3E0E /* 犀牛 */,
+				8882D4AF1BD8B6B4002A3E0E /* 猫 */,
+				8882D4B81BD8B6B4002A3E0E /* 猫头鹰 */,
+				8882D4C01BD8B6B4002A3E0E /* 猴子 */,
+				8882D4C91BD8B6B4002A3E0E /* 老鼠 */,
+				8882D4CD1BD8B6B4002A3E0E /* 草莓 */,
+				8882D4D51BD8B6B4002A3E0E /* 蚂蚁 */,
+				8882D4DF1BD8B6B4002A3E0E /* 蛇 */,
+				8882D4E61BD8B6B4002A3E0E /* 蜜蜂 */,
+				8882D4ED1BD8B6B4002A3E0E /* 蝴蝶 */,
+				8882D4F31BD8B6B4002A3E0E /* 西红柿 */,
+				8882D4F81BD8B6B4002A3E0E /* 青蛙 */,
+				8882D5051BD8B6B4002A3E0E /* 驯鹿 */,
+				8882D50D1BD8B6B4002A3E0E /* 鸭子 */,
+				8882D5131BD8B6B4002A3E0E /* 鸽子 */,
+			);
+			path = "简笔画";
+			sourceTree = "<group>";
+		};
+		8882D4411BD8B6B4002A3E0E /* 乌龟 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4421BD8B6B4002A3E0E /* 乌龟1.jpg */,
+				8882D4431BD8B6B4002A3E0E /* 乌龟2.jpg */,
+				8882D4441BD8B6B4002A3E0E /* 乌龟3.jpg */,
+				8882D4451BD8B6B4002A3E0E /* 乌龟4.jpg */,
+				8882D4461BD8B6B4002A3E0E /* 乌龟5.jpg */,
+			);
+			path = "乌龟";
+			sourceTree = "<group>";
+		};
+		8882D4471BD8B6B4002A3E0E /* 兔子 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4481BD8B6B4002A3E0E /* 兔子1.jpg */,
+				8882D4491BD8B6B4002A3E0E /* 兔子10.jpg */,
+				8882D44A1BD8B6B4002A3E0E /* 兔子2.jpg */,
+				8882D44B1BD8B6B4002A3E0E /* 兔子3.jpg */,
+				8882D44C1BD8B6B4002A3E0E /* 兔子4.jpg */,
+				8882D44D1BD8B6B4002A3E0E /* 兔子5.jpg */,
+				8882D44E1BD8B6B4002A3E0E /* 兔子6.jpg */,
+				8882D44F1BD8B6B4002A3E0E /* 兔子7.jpg */,
+				8882D4501BD8B6B4002A3E0E /* 兔子8.jpg */,
+				8882D4511BD8B6B4002A3E0E /* 兔子9.jpg */,
+			);
+			path = "兔子";
+			sourceTree = "<group>";
+		};
+		8882D45F1BD8B6B4002A3E0E /* 大象 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4601BD8B6B4002A3E0E /* 大象1.jpg */,
+				8882D4611BD8B6B4002A3E0E /* 大象2.jpg */,
+				8882D4621BD8B6B4002A3E0E /* 大象3.jpg */,
+				8882D4631BD8B6B4002A3E0E /* 大象4.jpg */,
+				8882D4641BD8B6B4002A3E0E /* 大象5.jpg */,
+				8882D4651BD8B6B4002A3E0E /* 大象6.jpg */,
+			);
+			path = "大象";
+			sourceTree = "<group>";
+		};
+		8882D4661BD8B6B4002A3E0E /* 小狗 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4671BD8B6B4002A3E0E /* 小狗1.jpg */,
+				8882D4681BD8B6B4002A3E0E /* 小狗2.jpg */,
+				8882D4691BD8B6B4002A3E0E /* 小狗3.jpg */,
+				8882D46A1BD8B6B4002A3E0E /* 小狗4.jpg */,
+				8882D46B1BD8B6B4002A3E0E /* 小狗5.jpg */,
+				8882D46C1BD8B6B4002A3E0E /* 小狗6.jpg */,
+				8882D46D1BD8B6B4002A3E0E /* 小狗7.jpg */,
+				8882D46E1BD8B6B4002A3E0E /* 小狗8.jpg */,
+			);
+			path = "小狗";
+			sourceTree = "<group>";
+		};
+		8882D46F1BD8B6B4002A3E0E /* 小马 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4701BD8B6B4002A3E0E /* 小马1.jpg */,
+				8882D4711BD8B6B4002A3E0E /* 小马2.jpg */,
+				8882D4721BD8B6B4002A3E0E /* 小马3.jpg */,
+				8882D4731BD8B6B4002A3E0E /* 小马4.jpg */,
+				8882D4741BD8B6B4002A3E0E /* 小马5.jpg */,
+				8882D4751BD8B6B4002A3E0E /* 小马6.jpg */,
+				8882D4761BD8B6B4002A3E0E /* 小马7.jpg */,
+				8882D4771BD8B6B4002A3E0E /* 小马8.jpg */,
+				8882D4781BD8B6B4002A3E0E /* 小马9.jpg */,
+			);
+			path = "小马";
+			sourceTree = "<group>";
+		};
+		8882D4791BD8B6B4002A3E0E /* 毛毛虫 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D47A1BD8B6B4002A3E0E /* 毛毛虫1.jpg */,
+				8882D47B1BD8B6B4002A3E0E /* 毛毛虫2.jpg */,
+				8882D47C1BD8B6B4002A3E0E /* 毛毛虫3.jpg */,
+				8882D47D1BD8B6B4002A3E0E /* 毛毛虫4.jpg */,
+				8882D47E1BD8B6B4002A3E0E /* 毛毛虫5.jpg */,
+				8882D47F1BD8B6B4002A3E0E /* 毛毛虫6.jpg */,
+			);
+			path = "毛毛虫";
+			sourceTree = "<group>";
+		};
+		8882D4801BD8B6B4002A3E0E /* 水濑 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4811BD8B6B4002A3E0E /* 水濑1.jpg */,
+				8882D4821BD8B6B4002A3E0E /* 水濑10.jpg */,
+				8882D4831BD8B6B4002A3E0E /* 水濑11.jpg */,
+				8882D4841BD8B6B4002A3E0E /* 水濑2.jpg */,
+				8882D4851BD8B6B4002A3E0E /* 水濑3.jpg */,
+				8882D4861BD8B6B4002A3E0E /* 水濑4.jpg */,
+				8882D4871BD8B6B4002A3E0E /* 水濑5.jpg */,
+				8882D4881BD8B6B4002A3E0E /* 水濑6.jpg */,
+				8882D4891BD8B6B4002A3E0E /* 水濑7.jpg */,
+				8882D48A1BD8B6B4002A3E0E /* 水濑8.jpg */,
+				8882D48B1BD8B6B4002A3E0E /* 水濑9.jpg */,
+			);
+			path = "水濑";
+			sourceTree = "<group>";
+		};
+		8882D48C1BD8B6B4002A3E0E /* 海豚 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D48D1BD8B6B4002A3E0E /* 海豚1.jpg */,
+				8882D48E1BD8B6B4002A3E0E /* 海豚2.jpg */,
+				8882D48F1BD8B6B4002A3E0E /* 海豚3.jpg */,
+				8882D4901BD8B6B4002A3E0E /* 海豚4.jpg */,
+				8882D4911BD8B6B4002A3E0E /* 海豚5.jpg */,
+				8882D4921BD8B6B4002A3E0E /* 海豚6.jpg */,
+				8882D4931BD8B6B4002A3E0E /* 海豚7.jpg */,
+			);
+			path = "海豚";
+			sourceTree = "<group>";
+		};
+		8882D4941BD8B6B4002A3E0E /* 牧羊犬 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4951BD8B6B4002A3E0E /* 牧羊犬1.jpg */,
+				8882D4961BD8B6B4002A3E0E /* 牧羊犬10.jpg */,
+				8882D4971BD8B6B4002A3E0E /* 牧羊犬11.jpg */,
+				8882D4981BD8B6B4002A3E0E /* 牧羊犬12.jpg */,
+				8882D4991BD8B6B4002A3E0E /* 牧羊犬13.jpg */,
+				8882D49A1BD8B6B4002A3E0E /* 牧羊犬14.jpg */,
+				8882D49B1BD8B6B4002A3E0E /* 牧羊犬2.jpg */,
+				8882D49C1BD8B6B4002A3E0E /* 牧羊犬3.jpg */,
+				8882D49D1BD8B6B4002A3E0E /* 牧羊犬4.jpg */,
+				8882D49E1BD8B6B4002A3E0E /* 牧羊犬5.jpg */,
+				8882D49F1BD8B6B4002A3E0E /* 牧羊犬6.jpg */,
+				8882D4A01BD8B6B4002A3E0E /* 牧羊犬7.jpg */,
+				8882D4A11BD8B6B4002A3E0E /* 牧羊犬8.jpg */,
+				8882D4A21BD8B6B4002A3E0E /* 牧羊犬9.jpg */,
+			);
+			path = "牧羊犬";
+			sourceTree = "<group>";
+		};
+		8882D4A31BD8B6B4002A3E0E /* 犀牛 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4A41BD8B6B4002A3E0E /* 犀牛1.jpg */,
+				8882D4A51BD8B6B4002A3E0E /* 犀牛10.jpg */,
+				8882D4A61BD8B6B4002A3E0E /* 犀牛11.jpg */,
+				8882D4A71BD8B6B4002A3E0E /* 犀牛2.jpg */,
+				8882D4A81BD8B6B4002A3E0E /* 犀牛3.jpg */,
+				8882D4A91BD8B6B4002A3E0E /* 犀牛4.jpg */,
+				8882D4AA1BD8B6B4002A3E0E /* 犀牛5.jpg */,
+				8882D4AB1BD8B6B4002A3E0E /* 犀牛6.jpg */,
+				8882D4AC1BD8B6B4002A3E0E /* 犀牛7.jpg */,
+				8882D4AD1BD8B6B4002A3E0E /* 犀牛8.jpg */,
+				8882D4AE1BD8B6B4002A3E0E /* 犀牛9.jpg */,
+			);
+			path = "犀牛";
+			sourceTree = "<group>";
+		};
+		8882D4AF1BD8B6B4002A3E0E /* 猫 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4B01BD8B6B4002A3E0E /* 猫1.jpg */,
+				8882D4B11BD8B6B4002A3E0E /* 猫2.jpg */,
+				8882D4B21BD8B6B4002A3E0E /* 猫3.jpg */,
+				8882D4B31BD8B6B4002A3E0E /* 猫4.jpg */,
+				8882D4B41BD8B6B4002A3E0E /* 猫5.jpg */,
+				8882D4B51BD8B6B4002A3E0E /* 猫6.jpg */,
+				8882D4B61BD8B6B4002A3E0E /* 猫7.jpg */,
+				8882D4B71BD8B6B4002A3E0E /* 猫8.jpg */,
+			);
+			path = "猫";
+			sourceTree = "<group>";
+		};
+		8882D4B81BD8B6B4002A3E0E /* 猫头鹰 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4B91BD8B6B4002A3E0E /* 猫头鹰1.jpg */,
+				8882D4BA1BD8B6B4002A3E0E /* 猫头鹰2.jpg */,
+				8882D4BB1BD8B6B4002A3E0E /* 猫头鹰3.jpg */,
+				8882D4BC1BD8B6B4002A3E0E /* 猫头鹰4.jpg */,
+				8882D4BD1BD8B6B4002A3E0E /* 猫头鹰5.jpg */,
+				8882D4BE1BD8B6B4002A3E0E /* 猫头鹰6.jpg */,
+				8882D4BF1BD8B6B4002A3E0E /* 猫头鹰7.jpg */,
+			);
+			path = "猫头鹰";
+			sourceTree = "<group>";
+		};
+		8882D4C01BD8B6B4002A3E0E /* 猴子 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4C11BD8B6B4002A3E0E /* 猴子1.jpg */,
+				8882D4C21BD8B6B4002A3E0E /* 猴子2.jpg */,
+				8882D4C31BD8B6B4002A3E0E /* 猴子3.jpg */,
+				8882D4C41BD8B6B4002A3E0E /* 猴子4.jpg */,
+				8882D4C51BD8B6B4002A3E0E /* 猴子5.jpg */,
+				8882D4C61BD8B6B4002A3E0E /* 猴子6.jpg */,
+				8882D4C71BD8B6B4002A3E0E /* 猴子7.jpg */,
+				8882D4C81BD8B6B4002A3E0E /* 猴子8.jpg */,
+			);
+			path = "猴子";
+			sourceTree = "<group>";
+		};
+		8882D4C91BD8B6B4002A3E0E /* 老鼠 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4CA1BD8B6B4002A3E0E /* 老鼠1.jpg */,
+				8882D4CB1BD8B6B4002A3E0E /* 老鼠2.jpg */,
+				8882D4CC1BD8B6B4002A3E0E /* 老鼠3.jpg */,
+			);
+			path = "老鼠";
+			sourceTree = "<group>";
+		};
+		8882D4CD1BD8B6B4002A3E0E /* 草莓 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4CF1BD8B6B4002A3E0E /* 草莓1.jpg */,
+				8882D4D01BD8B6B4002A3E0E /* 草莓2.jpg */,
+				8882D4D11BD8B6B4002A3E0E /* 草莓3.jpg */,
+				8882D4D21BD8B6B4002A3E0E /* 草莓4.jpg */,
+				8882D4D31BD8B6B4002A3E0E /* 草莓5.jpg */,
+				8882D4D41BD8B6B4002A3E0E /* 草莓6.jpg */,
+			);
+			path = "草莓";
+			sourceTree = "<group>";
+		};
+		8882D4D51BD8B6B4002A3E0E /* 蚂蚁 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4D61BD8B6B4002A3E0E /* 蚂蚁1.jpg */,
+				8882D4D71BD8B6B4002A3E0E /* 蚂蚁2.jpg */,
+				8882D4D81BD8B6B4002A3E0E /* 蚂蚁3.jpg */,
+				8882D4D91BD8B6B4002A3E0E /* 蚂蚁4.jpg */,
+				8882D4DA1BD8B6B4002A3E0E /* 蚂蚁5.jpg */,
+				8882D4DB1BD8B6B4002A3E0E /* 蚂蚁6.jpg */,
+				8882D4DC1BD8B6B4002A3E0E /* 蚂蚁7.jpg */,
+				8882D4DD1BD8B6B4002A3E0E /* 蚂蚁8.jpg */,
+				8882D4DE1BD8B6B4002A3E0E /* 蚂蚁9.jpg */,
+			);
+			path = "蚂蚁";
+			sourceTree = "<group>";
+		};
+		8882D4DF1BD8B6B4002A3E0E /* 蛇 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4E01BD8B6B4002A3E0E /* 蛇1.jpg */,
+				8882D4E11BD8B6B4002A3E0E /* 蛇2.jpg */,
+				8882D4E21BD8B6B4002A3E0E /* 蛇3.jpg */,
+				8882D4E31BD8B6B4002A3E0E /* 蛇4.jpg */,
+				8882D4E41BD8B6B4002A3E0E /* 蛇5.jpg */,
+				8882D4E51BD8B6B4002A3E0E /* 蛇6.jpg */,
+			);
+			path = "蛇";
+			sourceTree = "<group>";
+		};
+		8882D4E61BD8B6B4002A3E0E /* 蜜蜂 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4E71BD8B6B4002A3E0E /* 蜜蜂1.jpg */,
+				8882D4E81BD8B6B4002A3E0E /* 蜜蜂2.jpg */,
+				8882D4E91BD8B6B4002A3E0E /* 蜜蜂3.jpg */,
+				8882D4EA1BD8B6B4002A3E0E /* 蜜蜂4.jpg */,
+				8882D4EB1BD8B6B4002A3E0E /* 蜜蜂5.jpg */,
+				8882D4EC1BD8B6B4002A3E0E /* 蜜蜂6.jpg */,
+			);
+			path = "蜜蜂";
+			sourceTree = "<group>";
+		};
+		8882D4ED1BD8B6B4002A3E0E /* 蝴蝶 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4EE1BD8B6B4002A3E0E /* 蝴蝶1.jpg */,
+				8882D4EF1BD8B6B4002A3E0E /* 蝴蝶2.jpg */,
+				8882D4F01BD8B6B4002A3E0E /* 蝴蝶3.jpg */,
+				8882D4F11BD8B6B4002A3E0E /* 蝴蝶4.jpg */,
+				8882D4F21BD8B6B4002A3E0E /* 蝴蝶5.jpg */,
+			);
+			path = "蝴蝶";
+			sourceTree = "<group>";
+		};
+		8882D4F31BD8B6B4002A3E0E /* 西红柿 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4F41BD8B6B4002A3E0E /* 西红柿1.jpg */,
+				8882D4F51BD8B6B4002A3E0E /* 西红柿2.jpg */,
+				8882D4F61BD8B6B4002A3E0E /* 西红柿3.jpg */,
+				8882D4F71BD8B6B4002A3E0E /* 西红柿4.jpg */,
+			);
+			path = "西红柿";
+			sourceTree = "<group>";
+		};
+		8882D4F81BD8B6B4002A3E0E /* 青蛙 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4F91BD8B6B4002A3E0E /* 青蛙.jpg */,
+				8882D4FA1BD8B6B4002A3E0E /* 青蛙1.jpg */,
+				8882D4FB1BD8B6B4002A3E0E /* 青蛙2.jpg */,
+				8882D4FC1BD8B6B4002A3E0E /* 青蛙3.jpg */,
+				8882D4FD1BD8B6B4002A3E0E /* 青蛙4.jpg */,
+				8882D4FE1BD8B6B4002A3E0E /* 青蛙5.jpg */,
+				8882D4FF1BD8B6B4002A3E0E /* 青蛙6.jpg */,
+			);
+			path = "青蛙";
+			sourceTree = "<group>";
+		};
+		8882D5051BD8B6B4002A3E0E /* 驯鹿 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D5061BD8B6B4002A3E0E /* 驯鹿1.jpg */,
+				8882D5071BD8B6B4002A3E0E /* 驯鹿2.jpg */,
+				8882D5081BD8B6B4002A3E0E /* 驯鹿3.jpg */,
+				8882D5091BD8B6B4002A3E0E /* 驯鹿4.jpg */,
+				8882D50A1BD8B6B4002A3E0E /* 驯鹿5.jpg */,
+				8882D50B1BD8B6B4002A3E0E /* 驯鹿6.jpg */,
+				8882D50C1BD8B6B4002A3E0E /* 驯鹿7.jpg */,
+			);
+			path = "驯鹿";
+			sourceTree = "<group>";
+		};
+		8882D50D1BD8B6B4002A3E0E /* 鸭子 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D50E1BD8B6B4002A3E0E /* 鸭子1.jpg */,
+				8882D50F1BD8B6B4002A3E0E /* 鸭子2.jpg */,
+				8882D5101BD8B6B4002A3E0E /* 鸭子3.jpg */,
+				8882D5111BD8B6B4002A3E0E /* 鸭子4.jpg */,
+				8882D5121BD8B6B4002A3E0E /* 鸭子5.jpg */,
+			);
+			path = "鸭子";
+			sourceTree = "<group>";
+		};
+		8882D5131BD8B6B4002A3E0E /* 鸽子 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D5141BD8B6B4002A3E0E /* 鸽子1.jpg */,
+				8882D5151BD8B6B4002A3E0E /* 鸽子2.jpg */,
+				8882D5161BD8B6B4002A3E0E /* 鸽子3.jpg */,
+				8882D5171BD8B6B4002A3E0E /* 鸽子4.jpg */,
+				8882D5181BD8B6B4002A3E0E /* 鸽子5.jpg */,
+				8882D5191BD8B6B4002A3E0E /* 鸽子6.jpg */,
+			);
+			path = "鸽子";
+			sourceTree = "<group>";
+		};
+		888978861BE0563000300D0D /* GBXGoToPlay */ = {
+			isa = PBXGroup;
+			children = (
+				888978871BE0563000300D0D /* Controller */,
+				8889789E1BE0563000300D0D /* icon */,
+				888978E21BE0563000300D0D /* Model */,
+				888978EF1BE0563000300D0D /* Plist */,
+				888978F61BE0563000300D0D /* View */,
+			);
+			path = GBXGoToPlay;
+			sourceTree = "<group>";
+		};
+		888978871BE0563000300D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				888978881BE0563000300D0D /* GBXGoToPlayFlowerController.h */,
+				888978891BE0563000300D0D /* GBXGoToPlayFlowerController.m */,
+				8889788A1BE0563000300D0D /* GBXGoToPlayFlowerController.xib */,
+				8889788B1BE0563000300D0D /* GBXGoToPlayFruitController.h */,
+				8889788C1BE0563000300D0D /* GBXGoToPlayFruitController.m */,
+				8889788D1BE0563000300D0D /* GBXGoToPlayFruitController.xib */,
+				888978901BE0563000300D0D /* GBXGoToPlaySideAnimalController.h */,
+				888978911BE0563000300D0D /* GBXGoToPlaySideAnimalController.m */,
+				888978921BE0563000300D0D /* GBXGoToPlaySideAnimalController.xib */,
+				888978931BE0563000300D0D /* GBXGoToPlayTreeController.h */,
+				888978941BE0563000300D0D /* GBXGoToPlayTreeController.m */,
+				888978951BE0563000300D0D /* GBXGoToPlayTreeController.xib */,
+				888978961BE0563000300D0D /* GBXGoToPlayVegetableController.h */,
+				888978971BE0563000300D0D /* GBXGoToPlayVegetableController.m */,
+				888978981BE0563000300D0D /* GBXGoToPlayVegetableController.xib */,
+				8889789B1BE0563000300D0D /* GBXGoToPlayWildLifeController.h */,
+				8889789C1BE0563000300D0D /* GBXGoToPlayWildLifeController.m */,
+				8889789D1BE0563000300D0D /* GBXGoToPlayWildLifeController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8889789E1BE0563000300D0D /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				8889789F1BE0563000300D0D /* Flower */,
+				888978AB1BE0563000300D0D /* Fruit */,
+				888978B61BE0563000300D0D /* SideAnimal */,
+				888978C11BE0563000300D0D /* Tree */,
+				888978CC1BE0563000300D0D /* Vegetable */,
+				888978D71BE0563000300D0D /* WildLife */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		8889789F1BE0563000300D0D /* Flower */ = {
+			isa = PBXGroup;
+			children = (
+				888978A01BE0563000300D0D /* 月季.png */,
+				888978A11BE0563000300D0D /* 杜鹃.png */,
+				888978A21BE0563000300D0D /* 梅花.png */,
+				888978A31BE0563000300D0D /* 爬山虎.png */,
+				888978A41BE0563000300D0D /* 牡丹.png */,
+				888978A51BE0563000300D0D /* 百合.png */,
+				888978A61BE0563000300D0D /* 红玫瑰.png */,
+				888978A71BE0563000300D0D /* 茉莉花.png */,
+				888978A81BE0563000300D0D /* 荷花.png */,
+				888978A91BE0563000300D0D /* 菊花.png */,
+				888978AA1BE0563000300D0D /* 蒲公英.png */,
+			);
+			path = Flower;
+			sourceTree = "<group>";
+		};
+		888978AB1BE0563000300D0D /* Fruit */ = {
+			isa = PBXGroup;
+			children = (
+				888978AC1BE0563000300D0D /* 桃.png */,
+				888978AD1BE0563000300D0D /* 桔子.png */,
+				888978AE1BE0563000300D0D /* 梨.png */,
+				888978AF1BE0563000300D0D /* 榴莲.png */,
+				888978B01BE0563000300D0D /* 橙子.png */,
+				888978B11BE0563000300D0D /* 苹果.png */,
+				888978B21BE0563000300D0D /* 荔枝.png */,
+				888978B31BE0563000300D0D /* 葡萄.png */,
+				888978B41BE0563000300D0D /* 西瓜.png */,
+				888978B51BE0563000300D0D /* 香蕉.png */,
+			);
+			path = Fruit;
+			sourceTree = "<group>";
+		};
+		888978B61BE0563000300D0D /* SideAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				888978B71BE0563000300D0D /* 兔子.png */,
+				888978B81BE0563000300D0D /* 公鸡.png */,
+				888978B91BE0563000300D0D /* 毛驴.png */,
+				888978BA1BE0563000300D0D /* 牛.png */,
+				888978BB1BE0563000300D0D /* 狗.png */,
+				888978BC1BE0563000300D0D /* 猪.png */,
+				888978BD1BE0563000300D0D /* 猫.png */,
+				888978BE1BE0563000300D0D /* 羊.png */,
+				888978BF1BE0563000300D0D /* 马.png */,
+				888978C01BE0563000300D0D /* 鸭子.png */,
+			);
+			path = SideAnimal;
+			sourceTree = "<group>";
+		};
+		888978C11BE0563000300D0D /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				888978C21BE0563000300D0D /* 杏树.png */,
+				888978C31BE0563000300D0D /* 杨树.png */,
+				888978C41BE0563000300D0D /* 松树.png */,
+				888978C51BE0563000300D0D /* 枣树.png */,
+				888978C61BE0563000300D0D /* 柳树.png */,
+				888978C71BE0563000300D0D /* 桃树.png */,
+				888978C81BE0563000300D0D /* 桑树.png */,
+				888978C91BE0563000300D0D /* 梧桐树.png */,
+				888978CA1BE0563000300D0D /* 梨树.png */,
+				888978CB1BE0563000300D0D /* 槐树.png */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		888978CC1BE0563000300D0D /* Vegetable */ = {
+			isa = PBXGroup;
+			children = (
+				888978CD1BE0563000300D0D /* 冬瓜.png */,
+				888978CE1BE0563000300D0D /* 土豆.png */,
+				888978CF1BE0563000300D0D /* 大白菜.png */,
+				888978D01BE0563000300D0D /* 胡萝卜.png */,
+				888978D11BE0563000300D0D /* 茄子.png */,
+				888978D21BE0563000300D0D /* 葱.png */,
+				888978D31BE0563000300D0D /* 西红柿.png */,
+				888978D41BE0563000300D0D /* 豆角.png */,
+				888978D51BE0563000300D0D /* 青椒.png */,
+				888978D61BE0563000300D0D /* 黄瓜.png */,
+			);
+			path = Vegetable;
+			sourceTree = "<group>";
+		};
+		888978D71BE0563000300D0D /* WildLife */ = {
+			isa = PBXGroup;
+			children = (
+				888978D81BE0563000300D0D /* 企鹅.png */,
+				888978D91BE0563000300D0D /* 大象.png */,
+				888978DA1BE0563000300D0D /* 孔雀.png */,
+				888978DB1BE0563000300D0D /* 梅花鹿.png */,
+				888978DC1BE0563000300D0D /* 熊猫.png */,
+				888978DD1BE0563000300D0D /* 狮子.png */,
+				888978DE1BE0563000300D0D /* 猴子.png */,
+				888978DF1BE0563000300D0D /* 老虎.png */,
+				888978E01BE0563000300D0D /* 长颈鹿.png */,
+				888978E11BE0563000300D0D /* 黑熊.png */,
+			);
+			path = WildLife;
+			sourceTree = "<group>";
+		};
+		888978E21BE0563000300D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				888978E31BE0563000300D0D /* FlowerModel.h */,
+				888978E41BE0563000300D0D /* FlowerModel.m */,
+				888978E51BE0563000300D0D /* FruitModel.h */,
+				888978E61BE0563000300D0D /* FruitModel.m */,
+				888978E71BE0563000300D0D /* SideAnimalModel.h */,
+				888978E81BE0563000300D0D /* SideAnimalModel.m */,
+				888978E91BE0563000300D0D /* TreeModel.h */,
+				888978EA1BE0563000300D0D /* TreeModel.m */,
+				888978EB1BE0563000300D0D /* VegetableModel.h */,
+				888978EC1BE0563000300D0D /* VegetableModel.m */,
+				888978ED1BE0563000300D0D /* WildLifeModel.h */,
+				888978EE1BE0563000300D0D /* WildLifeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		888978EF1BE0563000300D0D /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				888978F01BE0563000300D0D /* flower.plist */,
+				888978F11BE0563000300D0D /* Fruit.plist */,
+				888978F21BE0563000300D0D /* SideAnimal.plist */,
+				888978F31BE0563000300D0D /* Tree.plist */,
+				888978F41BE0563000300D0D /* Vegetable.plist */,
+				888978F51BE0563000300D0D /* WildLife.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		888978F61BE0563000300D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8889788E1BE0563000300D0D /* GBXGoToPlayItem.h */,
+				8889788F1BE0563000300D0D /* GBXGoToPlayItem.m */,
+				888978991BE0563000300D0D /* GBXGoToPlayView.h */,
+				8889789A1BE0563000300D0D /* GBXGoToPlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8889794E1BE0582500300D0D /* GLLCalculate */ = {
+			isa = PBXGroup;
+			children = (
+				8889794F1BE0582500300D0D /* Controller */,
+				888979591BE0582500300D0D /* Model */,
+				8889795A1BE0582500300D0D /* View */,
+			);
+			path = GLLCalculate;
+			sourceTree = "<group>";
+		};
+		8889794F1BE0582500300D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				888979501BE0582500300D0D /* CalculateViewController.h */,
+				888979511BE0582500300D0D /* CalculateViewController.m */,
+				888979521BE0582500300D0D /* GLLMainViewController.h */,
+				888979531BE0582500300D0D /* GLLMainViewController.m */,
+				888979541BE0582500300D0D /* GLLMainViewController.xib */,
+				888979551BE0582500300D0D /* NumberViewController.h */,
+				888979561BE0582500300D0D /* NumberViewController.m */,
+				888979571BE0582500300D0D /* TwoCalViewController.h */,
+				888979581BE0582500300D0D /* TwoCalViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		888979591BE0582500300D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8889795A1BE0582500300D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8889795B1BE0582500300D0D /* GLLIMage */ = {
+			isa = PBXGroup;
+			children = (
+				8889795C1BE0582500300D0D /* image */,
+			);
+			name = GLLIMage;
+			path = ../GLLIMage;
+			sourceTree = "<group>";
+		};
+		8889795C1BE0582500300D0D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				8889795D1BE0582500300D0D /* 3.png */,
+				8889795E1BE0582500300D0D /* 7.png */,
+				8889795F1BE0582500300D0D /* back.png */,
+				888979601BE0582500300D0D /* 算术.jpg */,
+				888979611BE0582500300D0D /* 算术1.jpg */,
+				888979621BE0582500300D0D /* 算术2.jpg */,
+				888979631BE0582500300D0D /* 草莓.jpg */,
+				888979641BE0582500300D0D /* 菠萝.jpg */,
+				888979651BE0582500300D0D /* 香蕉.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		88897ABB1BE0CF4200300D0D /* YSHSongAndStory */ = {
+			isa = PBXGroup;
+			children = (
+				88897ABC1BE0CF4200300D0D /* Controller */,
+				88897AC91BE0CF4200300D0D /* Model */,
+				88897ACE1BE0CF4200300D0D /* View */,
+			);
+			path = YSHSongAndStory;
+			sourceTree = "<group>";
+		};
+		88897ABC1BE0CF4200300D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88897ABD1BE0CF4200300D0D /* YSHMainViewController.h */,
+				88897ABE1BE0CF4200300D0D /* YSHMainViewController.m */,
+				88897ABF1BE0CF4200300D0D /* YSHMainViewController.xib */,
+				88897AC01BE0CF4200300D0D /* YSHplaySongsViewController.h */,
+				88897AC11BE0CF4200300D0D /* YSHplaySongsViewController.m */,
+				88897AC21BE0CF4200300D0D /* YSHplaySongsViewController.xib */,
+				88897AC31BE0CF4200300D0D /* YSHSingSongViewController.h */,
+				88897AC41BE0CF4200300D0D /* YSHSingSongViewController.m */,
+				88897AC51BE0CF4200300D0D /* YSHSingSongViewController.xib */,
+				88897AC61BE0CF4200300D0D /* YSHTellStoryViewController.h */,
+				88897AC71BE0CF4200300D0D /* YSHTellStoryViewController.m */,
+				88897AC81BE0CF4200300D0D /* YSHTellStoryViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88897AC91BE0CF4200300D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88897ACA1BE0CF4200300D0D /* YSHSong.h */,
+				88897ACB1BE0CF4200300D0D /* YSHSong.m */,
+				88897ACC1BE0CF4200300D0D /* YSHStory.h */,
+				88897ACD1BE0CF4200300D0D /* YSHStory.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88897ACE1BE0CF4200300D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88897ACF1BE0CF4200300D0D /* YSHMainView.h */,
+				88897AD01BE0CF4200300D0D /* YSHMainView.m */,
+				88897AD11BE0CF4200300D0D /* YSHTellStoryView.h */,
+				88897AD21BE0CF4200300D0D /* YSHTellStoryView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88897ADF1BE0D00200300D0D /* YSH */ = {
+			isa = PBXGroup;
+			children = (
+				88897AE01BE0D00200300D0D /* image */,
+				88897AED1BE0D00200300D0D /* sleep.jpg */,
+				88897AEE1BE0D00200300D0D /* 儿童娱乐效果图 */,
+			);
+			name = YSH;
+			path = ../YSH;
+			sourceTree = "<group>";
+		};
+		88897AE01BE0D00200300D0D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				88897AE11BE0D00200300D0D /* aboveMusic.png */,
+				88897AE21BE0D00200300D0D /* backgroundImage5.jpg */,
+				88897AE31BE0D00200300D0D /* circleClose.png */,
+				88897AE41BE0D00200300D0D /* circleOpen.png */,
+				88897AE51BE0D00200300D0D /* menu.png */,
+				88897AE61BE0D00200300D0D /* nextMusic.png */,
+				88897AE71BE0D00200300D0D /* pause.png */,
+				88897AE81BE0D00200300D0D /* play.png */,
+				88897AE91BE0D00200300D0D /* randomClose.png */,
+				88897AEA1BE0D00200300D0D /* randomOpen.png */,
+				88897AEB1BE0D00200300D0D /* sliderThumb_small.png */,
+				88897AEC1BE0D00200300D0D /* soundSlider.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		88897AEE1BE0D00200300D0D /* 儿童娱乐效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				88897AEF1BE0D00300300D0D /* 儿童娱乐效果图 */,
+				88897AFB1BE0D00300300D0D /* 儿童首页.jpg */,
+				88897AFC1BE0D00300300D0D /* 听儿歌_meitu_1.jpg */,
+				88897AFD1BE0D00300300D0D /* 故事列表_meitu_3.png */,
+			);
+			path = "儿童娱乐效果图";
+			sourceTree = "<group>";
+		};
+		88897AEF1BE0D00300300D0D /* 儿童娱乐效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				88897AF01BE0D00300300D0D /* 儿童首页.png */,
+				88897AF11BE0D00300300D0D /* 儿童首页_meitu_1.jpg */,
+				88897AF21BE0D00300300D0D /* 单个故事.png */,
+				88897AF31BE0D00300300D0D /* 单个故事_meitu_1.jpg */,
+				88897AF41BE0D00300300D0D /* 单个故事_meitu_2.jpg */,
+				88897AF51BE0D00300300D0D /* 单曲哥.png */,
+				88897AF61BE0D00300300D0D /* 单曲哥_meitu_3.jpg */,
+				88897AF71BE0D00300300D0D /* 听儿歌.png */,
+				88897AF81BE0D00300300D0D /* 故事列表.png */,
+				88897AF91BE0D00300300D0D /* 讲故事.png */,
+				88897AFA1BE0D00300300D0D /* 讲故事_meitu_3.jpg */,
+			);
+			path = "儿童娱乐效果图";
+			sourceTree = "<group>";
+		};
+		88897AFE1BE0D00300300D0D /* YSHSongs */ = {
+			isa = PBXGroup;
+			children = (
+				88897AFF1BE0D00300300D0D /* Songs */,
+				88897B081BE0D00300300D0D /* YSHSongs.plist */,
+			);
+			name = YSHSongs;
+			path = ../YSHSongs;
+			sourceTree = "<group>";
+		};
+		88897AFF1BE0D00300300D0D /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				88897B001BE0D00300300D0D /* 情非得已.lrc */,
+				88897B011BE0D00300300D0D /* 情非得已.mp3 */,
+				88897B021BE0D00300300D0D /* 李白.mp3 */,
+				88897B031BE0D00300300D0D /* 李荣浩-李白.lrc */,
+				88897B041BE0D00300300D0D /* 林俊杰-背对背拥抱.lrc */,
+				88897B051BE0D00300300D0D /* 林俊杰-背对背拥抱.mp3 */,
+				88897B061BE0D00300300D0D /* 梁静茹-偶阵雨.lrc */,
+				88897B071BE0D00300300D0D /* 梁静茹-偶阵雨.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		8890A8571BCE5C3200F51BE9 = {
+			isa = PBXGroup;
+			children = (
+				88749EDC1BD71BCC00FAE46E /* Foundation.framework */,
+				88749EDA1BD71BBD00FAE46E /* UIKit.framework */,
+				88749ED81BD71BAD00FAE46E /* CoreGraphics.framework */,
+				88F7BB871BD64E4600EFE492 /* QuartzCore.framework */,
+				8890A8621BCE5C3300F51BE9 /* ChildrenWorld */,
+				8890A87C1BCE5C3300F51BE9 /* ChildrenWorldTests */,
+				8890A8611BCE5C3300F51BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8890A8611BCE5C3300F51BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8601BCE5C3300F51BE9 /* ChildrenWorld.app */,
+				8890A8791BCE5C3300F51BE9 /* ChildrenWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8890A8621BCE5C3300F51BE9 /* ChildrenWorld */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8BD1BCE669100F51BE9 /* Other */,
+				8890A8671BCE5C3300F51BE9 /* AppDelegate.h */,
+				8890A8681BCE5C3300F51BE9 /* AppDelegate.m */,
+				8890A88E1BCE5DA200F51BE9 /* Lead */,
+				8890A89E1BCE621300F51BE9 /* Main */,
+				88897ABB1BE0CF4200300D0D /* YSHSongAndStory */,
+				8890A88B1BCE5D7300F51BE9 /* HZLLearnEnglish */,
+				8890A88C1BCE5D7300F51BE9 /* LMKLearnSketch */,
+				8889794E1BE0582500300D0D /* GLLCalculate */,
+				888978861BE0563000300D0D /* GBXGoToPlay */,
+				8890A8701BCE5C3300F51BE9 /* Images.xcassets */,
+				88B6027A1BCF45E60071DB8F /* Main.storyboard */,
+				8890A8721BCE5C3300F51BE9 /* LaunchScreen.xib */,
+				8890A8A21BCE62E100F51BE9 /* Resource */,
+				8890A8631BCE5C3300F51BE9 /* Supporting Files */,
+			);
+			path = ChildrenWorld;
+			sourceTree = "<group>";
+		};
+		8890A8631BCE5C3300F51BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8641BCE5C3300F51BE9 /* Info.plist */,
+				8890A8651BCE5C3300F51BE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8890A87C1BCE5C3300F51BE9 /* ChildrenWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8890A87F1BCE5C3300F51BE9 /* ChildrenWorldTests.m */,
+				8890A87D1BCE5C3300F51BE9 /* Supporting Files */,
+			);
+			path = ChildrenWorldTests;
+			sourceTree = "<group>";
+		};
+		8890A87D1BCE5C3300F51BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8890A87E1BCE5C3300F51BE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8890A88B1BCE5D7300F51BE9 /* HZLLearnEnglish */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8B11BCE653600F51BE9 /* Controller */,
+				8890A8B21BCE653600F51BE9 /* Model */,
+				8890A8B31BCE653600F51BE9 /* View */,
+			);
+			path = HZLLearnEnglish;
+			sourceTree = "<group>";
+		};
+		8890A88C1BCE5D7300F51BE9 /* LMKLearnSketch */ = {
+			isa = PBXGroup;
+			children = (
+				8882D4391BD8A313002A3E0E /* Other */,
+				8890A8B41BCE654100F51BE9 /* Controller */,
+				8890A8B51BCE654100F51BE9 /* Model */,
+				8890A8B61BCE654100F51BE9 /* View */,
+			);
+			path = LMKLearnSketch;
+			sourceTree = "<group>";
+		};
+		8890A88E1BCE5DA200F51BE9 /* Lead */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8A51BCE650200F51BE9 /* Controller */,
+			);
+			path = Lead;
+			sourceTree = "<group>";
+		};
+		8890A89E1BCE621300F51BE9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8A81BCE650E00F51BE9 /* Controller */,
+				8890A8A91BCE650E00F51BE9 /* Model */,
+				8890A8AA1BCE650E00F51BE9 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8890A8A21BCE62E100F51BE9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				88897ADF1BE0D00200300D0D /* YSH */,
+				88897AFE1BE0D00300300D0D /* YSHSongs */,
+				8882D4401BD8B6B4002A3E0E /* 简笔画 */,
+				8889795B1BE0582500300D0D /* GLLIMage */,
+				8890A8CA1BCE675A00F51BE9 /* 儿童娱乐效果图 */,
+				8890A8D11BCE675A00F51BE9 /* iocn */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8890A8A51BCE650200F51BE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8921BCE5EAF00F51BE9 /* LeadViewController.h */,
+				8890A8931BCE5EAF00F51BE9 /* LeadViewController.m */,
+				88FAD22D1BCF59AB008F5ABB /* LeadView.h */,
+				88FAD22E1BCF59AB008F5ABB /* LeadView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8890A8A81BCE650E00F51BE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8890A89F1BCE623300F51BE9 /* MainViewController.h */,
+				8890A8A01BCE623300F51BE9 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8890A8A91BCE650E00F51BE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8890A8AA1BCE650E00F51BE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8BA1BCE65FD00F51BE9 /* MainImageView.h */,
+				8890A8BB1BCE65FD00F51BE9 /* MainImageView.m */,
+				88F7BAA41BD5E25200EFE492 /* MainChooseButton.h */,
+				88F7BAA51BD5E25200EFE492 /* MainChooseButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8890A8B11BCE653600F51BE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8890A8B21BCE653600F51BE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8890A8B31BCE653600F51BE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8890A8B41BCE654100F51BE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88D153131BD103CC00F773FB /* LMKMainViewController.h */,
+				88D153141BD103CC00F773FB /* LMKMainViewController.m */,
+				88D153151BD103CC00F773FB /* LMKMainViewController.xib */,
+				8809812C1BDE2FBB00931ACF /* LMKColorViewController.h */,
+				8809812D1BDE2FBB00931ACF /* LMKColorViewController.m */,
+				8809812E1BDE2FBB00931ACF /* LMKColorViewController.xib */,
+				880089E51BDDB92C005FD0E1 /* LMKLeadViewController.h */,
+				880089E61BDDB92C005FD0E1 /* LMKLeadViewController.m */,
+				880089E71BDDB92C005FD0E1 /* LMKLeadViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8890A8B51BCE654100F51BE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88F7BB891BD64E8200EFE492 /* LMKLine.h */,
+				88F7BB8A1BD64E8200EFE492 /* LMKLine.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8890A8B61BCE654100F51BE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8882D43A1BD8A636002A3E0E /* LMKRootsView.h */,
+				8882D43B1BD8A636002A3E0E /* LMKRootsView.m */,
+				88749ED51BD718EE00FAE46E /* LMKTouchDrawView.h */,
+				88749ED61BD718EE00FAE46E /* LMKTouchDrawView.m */,
+				88F7BB8C1BD64FA700EFE492 /* LMKColorPicker.h */,
+				88F7BB8D1BD64FA700EFE492 /* LMKColorPicker.m */,
+				880981311BDE37D700931ACF /* LMKLeadButton.h */,
+				880981321BDE37D700931ACF /* LMKLeadButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8890A8BD1BCE669100F51BE9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8BE1BCE669100F51BE9 /* Category */,
+				8890A8C91BCE66E000F51BE9 /* ChildrenWorld.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8890A8BE1BCE669100F51BE9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8C11BCE669100F51BE9 /* UIImage+image.h */,
+				8890A8C21BCE669100F51BE9 /* UIImage+image.m */,
+				8890A8C31BCE669100F51BE9 /* UIView+Frame.h */,
+				8890A8C41BCE669100F51BE9 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8890A8CA1BCE675A00F51BE9 /* 儿童娱乐效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				8882D5DC1BD8C2E9002A3E0E /* button_left.png */,
+				8882D5D81BD8C2E4002A3E0E /* button_right.png */,
+				8882D5D91BD8C2E4002A3E0E /* button_return.png */,
+				8804601D1BD87C7700AD3DAB /* cemera.png */,
+				880460191BD87BF000AD3DAB /* button_color.png */,
+				880460171BD87BE800AD3DAB /* button_pen.png */,
+				880460151BD87BD700AD3DAB /* button_save.png */,
+				880460131BD87B3800AD3DAB /* button_erase.png */,
+				880460111BD87B2900AD3DAB /* button_reset.png */,
+				88F7BB851BD6471900EFE492 /* drawBoard.jpg */,
+				8882D4351BD8A1D3002A3E0E /* draw1.png */,
+				88F7BAA71BD5E84600EFE492 /* draw.jpg */,
+				88F7BAA21BD5E0E000EFE492 /* 儿童首页.jpg */,
+				8890A8CC1BCE675A00F51BE9 /* 单个故事.png */,
+				8890A8CD1BCE675A00F51BE9 /* 单曲哥.png */,
+				8890A8CE1BCE675A00F51BE9 /* 听儿歌.png */,
+				8890A8CF1BCE675A00F51BE9 /* 故事列表.png */,
+				8890A8D01BCE675A00F51BE9 /* 讲故事.png */,
+			);
+			path = "儿童娱乐效果图";
+			sourceTree = "<group>";
+		};
+		8890A8D11BCE675A00F51BE9 /* iocn */ = {
+			isa = PBXGroup;
+			children = (
+				8890A8A31BCE646000F51BE9 /* icon.png */,
+			);
+			path = iocn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8890A85F1BCE5C3300F51BE9 /* ChildrenWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8890A8831BCE5C3300F51BE9 /* Build configuration list for PBXNativeTarget "ChildrenWorld" */;
+			buildPhases = (
+				8890A85C1BCE5C3300F51BE9 /* Sources */,
+				8890A85D1BCE5C3300F51BE9 /* Frameworks */,
+				8890A85E1BCE5C3300F51BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChildrenWorld;
+			productName = ChildrenWorld;
+			productReference = 8890A8601BCE5C3300F51BE9 /* ChildrenWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8890A8781BCE5C3300F51BE9 /* ChildrenWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8890A8861BCE5C3300F51BE9 /* Build configuration list for PBXNativeTarget "ChildrenWorldTests" */;
+			buildPhases = (
+				8890A8751BCE5C3300F51BE9 /* Sources */,
+				8890A8761BCE5C3300F51BE9 /* Frameworks */,
+				8890A8771BCE5C3300F51BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8890A87B1BCE5C3300F51BE9 /* PBXTargetDependency */,
+			);
+			name = ChildrenWorldTests;
+			productName = ChildrenWorldTests;
+			productReference = 8890A8791BCE5C3300F51BE9 /* ChildrenWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8890A8581BCE5C3200F51BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Clown;
+				TargetAttributes = {
+					8890A85F1BCE5C3300F51BE9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8890A8781BCE5C3300F51BE9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8890A85F1BCE5C3300F51BE9;
+					};
+				};
+			};
+			buildConfigurationList = 8890A85B1BCE5C3200F51BE9 /* Build configuration list for PBXProject "ChildrenWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8890A8571BCE5C3200F51BE9;
+			productRefGroup = 8890A8611BCE5C3300F51BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8890A85F1BCE5C3300F51BE9 /* ChildrenWorld */,
+				8890A8781BCE5C3300F51BE9 /* ChildrenWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8890A85E1BCE5C3300F51BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889796D1BE0582500300D0D /* back.png in Resources */,
+				8882D5AF1BD8B6B4002A3E0E /* 蜜蜂4.jpg in Resources */,
+				8882D5401BD8B6B4002A3E0E /* 小狗6.jpg in Resources */,
+				888979341BE0563000300D0D /* 西红柿.png in Resources */,
+				8882D53D1BD8B6B4002A3E0E /* 小狗3.jpg in Resources */,
+				888979111BE0563000300D0D /* 桔子.png in Resources */,
+				88897B0A1BE0D00300300D0D /* backgroundImage5.jpg in Resources */,
+				8882D5971BD8B6B4002A3E0E /* 草莓1.jpg in Resources */,
+				8882D53A1BD8B6B4002A3E0E /* 大象6.jpg in Resources */,
+				88897B1D1BE0D00300300D0D /* 听儿歌.png in Resources */,
+				8882D5C91BD8B6B4002A3E0E /* 驯鹿4.jpg in Resources */,
+				8882D5211BD8B6B4002A3E0E /* 兔子2.jpg in Resources */,
+				8882D5581BD8B6B4002A3E0E /* 水濑5.jpg in Resources */,
+				88897B1B1BE0D00300300D0D /* 单曲哥.png in Resources */,
+				888979281BE0563000300D0D /* 柳树.png in Resources */,
+				8882D5CB1BD8B6B4002A3E0E /* 驯鹿6.jpg in Resources */,
+				8882D5391BD8B6B4002A3E0E /* 大象5.jpg in Resources */,
+				888979371BE0563000300D0D /* 黄瓜.png in Resources */,
+				8882D5BA1BD8B6B4002A3E0E /* 西红柿4.jpg in Resources */,
+				8882D51C1BD8B6B4002A3E0E /* 乌龟3.jpg in Resources */,
+				8882D5741BD8B6B4002A3E0E /* 犀牛11.jpg in Resources */,
+				888979381BE0563000300D0D /* 企鹅.png in Resources */,
+				8882D51D1BD8B6B4002A3E0E /* 乌龟4.jpg in Resources */,
+				88897B0C1BE0D00300300D0D /* circleOpen.png in Resources */,
+				8882D4381BD8A302002A3E0E /* Sketch.plist in Resources */,
+				8882D5D71BD8B6B4002A3E0E /* 鸽子6.jpg in Resources */,
+				8882D5201BD8B6B4002A3E0E /* 兔子10.jpg in Resources */,
+				8882D5C11BD8B6B4002A3E0E /* 青蛙6.jpg in Resources */,
+				8882D59B1BD8B6B4002A3E0E /* 草莓5.jpg in Resources */,
+				8882D5861BD8B6B4002A3E0E /* 猫头鹰2.jpg in Resources */,
+				88897B211BE0D00300300D0D /* 儿童首页.jpg in Resources */,
+				88897B271BE0D00300300D0D /* 李荣浩-李白.lrc in Resources */,
+				8882D5B31BD8B6B4002A3E0E /* 蝴蝶2.jpg in Resources */,
+				8882D5711BD8B6B4002A3E0E /* 牧羊犬9.jpg in Resources */,
+				888979091BE0563000300D0D /* 牡丹.png in Resources */,
+				8882D5C01BD8B6B4002A3E0E /* 青蛙5.jpg in Resources */,
+				888979241BE0563000300D0D /* 杏树.png in Resources */,
+				888979391BE0563000300D0D /* 大象.png in Resources */,
+				8882D54A1BD8B6B4002A3E0E /* 小马8.jpg in Resources */,
+				888979361BE0563000300D0D /* 青椒.png in Resources */,
+				88897B101BE0D00300300D0D /* play.png in Resources */,
+				8882D5661BD8B6B4002A3E0E /* 牧羊犬11.jpg in Resources */,
+				888979201BE0563000300D0D /* 猫.png in Resources */,
+				8882D5931BD8B6B4002A3E0E /* 猴子8.jpg in Resources */,
+				888979181BE0563000300D0D /* 西瓜.png in Resources */,
+				8882D55C1BD8B6B4002A3E0E /* 水濑9.jpg in Resources */,
+				8889791C1BE0563000300D0D /* 毛驴.png in Resources */,
+				8889796C1BE0582500300D0D /* 7.png in Resources */,
+				88897B291BE0D00300300D0D /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				88897B0E1BE0D00300300D0D /* nextMusic.png in Resources */,
+				8882D55E1BD8B6B4002A3E0E /* 海豚2.jpg in Resources */,
+				8889790F1BE0563000300D0D /* 蒲公英.png in Resources */,
+				8882D5B01BD8B6B4002A3E0E /* 蜜蜂5.jpg in Resources */,
+				8882D5551BD8B6B4002A3E0E /* 水濑2.jpg in Resources */,
+				8882D5A51BD8B6B4002A3E0E /* 蚂蚁9.jpg in Resources */,
+				8889792F1BE0563000300D0D /* 土豆.png in Resources */,
+				8882D51F1BD8B6B4002A3E0E /* 兔子1.jpg in Resources */,
+				8882D57A1BD8B6B4002A3E0E /* 犀牛7.jpg in Resources */,
+				8882D51E1BD8B6B4002A3E0E /* 乌龟5.jpg in Resources */,
+				8882D58D1BD8B6B4002A3E0E /* 猴子2.jpg in Resources */,
+				8882D5D31BD8B6B4002A3E0E /* 鸽子2.jpg in Resources */,
+				8882D5831BD8B6B4002A3E0E /* 猫7.jpg in Resources */,
+				8882D57C1BD8B6B4002A3E0E /* 犀牛9.jpg in Resources */,
+				8889790A1BE0563000300D0D /* 百合.png in Resources */,
+				888979481BE0563000300D0D /* flower.plist in Resources */,
+				88B6027C1BCF45E60071DB8F /* Main.storyboard in Resources */,
+				8889793C1BE0563000300D0D /* 熊猫.png in Resources */,
+				8882D5501BD8B6B4002A3E0E /* 毛毛虫5.jpg in Resources */,
+				88897B2C1BE0D00300300D0D /* YSHSongs.plist in Resources */,
+				8882D54E1BD8B6B4002A3E0E /* 毛毛虫3.jpg in Resources */,
+				8882D5AB1BD8B6B4002A3E0E /* 蛇6.jpg in Resources */,
+				8882D5951BD8B6B4002A3E0E /* 老鼠2.jpg in Resources */,
+				888979271BE0563000300D0D /* 枣树.png in Resources */,
+				88897AD61BE0CF4200300D0D /* YSHplaySongsViewController.xib in Resources */,
+				8882D5D01BD8B6B4002A3E0E /* 鸭子4.jpg in Resources */,
+				8882D5941BD8B6B4002A3E0E /* 老鼠1.jpg in Resources */,
+				8882D54C1BD8B6B4002A3E0E /* 毛毛虫1.jpg in Resources */,
+				8889796F1BE0582500300D0D /* 算术1.jpg in Resources */,
+				888979211BE0563000300D0D /* 羊.png in Resources */,
+				8882D5AD1BD8B6B4002A3E0E /* 蜜蜂2.jpg in Resources */,
+				8882D59C1BD8B6B4002A3E0E /* 草莓6.jpg in Resources */,
+				888979701BE0582500300D0D /* 算术2.jpg in Resources */,
+				888979681BE0582500300D0D /* GLLMainViewController.xib in Resources */,
+				8889793A1BE0563000300D0D /* 孔雀.png in Resources */,
+				88897B201BE0D00300300D0D /* 讲故事_meitu_3.jpg in Resources */,
+				8882D5851BD8B6B4002A3E0E /* 猫头鹰1.jpg in Resources */,
+				8890A8D51BCE675A00F51BE9 /* 听儿歌.png in Resources */,
+				8889790E1BE0563000300D0D /* 菊花.png in Resources */,
+				8882D5601BD8B6B4002A3E0E /* 海豚4.jpg in Resources */,
+				8889796E1BE0582500300D0D /* 算术.jpg in Resources */,
+				888979071BE0563000300D0D /* 梅花.png in Resources */,
+				8882D5A11BD8B6B4002A3E0E /* 蚂蚁5.jpg in Resources */,
+				8882D5991BD8B6B4002A3E0E /* 草莓3.jpg in Resources */,
+				8882D5381BD8B6B4002A3E0E /* 大象4.jpg in Resources */,
+				8882D5511BD8B6B4002A3E0E /* 毛毛虫6.jpg in Resources */,
+				8889794D1BE0563000300D0D /* WildLife.plist in Resources */,
+				8882D5B41BD8B6B4002A3E0E /* 蝴蝶3.jpg in Resources */,
+				888979011BE0563000300D0D /* GBXGoToPlayVegetableController.xib in Resources */,
+				8882D5441BD8B6B4002A3E0E /* 小马2.jpg in Resources */,
+				8889791D1BE0563000300D0D /* 牛.png in Resources */,
+				8882D51B1BD8B6B4002A3E0E /* 乌龟2.jpg in Resources */,
+				888979171BE0563000300D0D /* 葡萄.png in Resources */,
+				88897B1E1BE0D00300300D0D /* 故事列表.png in Resources */,
+				8882D5631BD8B6B4002A3E0E /* 海豚7.jpg in Resources */,
+				8882D51A1BD8B6B4002A3E0E /* 乌龟1.jpg in Resources */,
+				8882D5981BD8B6B4002A3E0E /* 草莓2.jpg in Resources */,
+				8882D5871BD8B6B4002A3E0E /* 猫头鹰3.jpg in Resources */,
+				8882D55D1BD8B6B4002A3E0E /* 海豚1.jpg in Resources */,
+				88897B121BE0D00300300D0D /* randomOpen.png in Resources */,
+				8882D4361BD8A1D3002A3E0E /* draw1.png in Resources */,
+				8882D5BC1BD8B6B4002A3E0E /* 青蛙1.jpg in Resources */,
+				8882D53F1BD8B6B4002A3E0E /* 小狗5.jpg in Resources */,
+				8889793D1BE0563000300D0D /* 狮子.png in Resources */,
+				8882D5531BD8B6B4002A3E0E /* 水濑10.jpg in Resources */,
+				88897AD81BE0CF4200300D0D /* YSHSingSongViewController.xib in Resources */,
+				888979161BE0563000300D0D /* 荔枝.png in Resources */,
+				8889791A1BE0563000300D0D /* 兔子.png in Resources */,
+				8882D5421BD8B6B4002A3E0E /* 小狗8.jpg in Resources */,
+				8882D5471BD8B6B4002A3E0E /* 小马5.jpg in Resources */,
+				8882D57D1BD8B6B4002A3E0E /* 猫1.jpg in Resources */,
+				8882D5521BD8B6B4002A3E0E /* 水濑1.jpg in Resources */,
+				8882D5C61BD8B6B4002A3E0E /* 驯鹿1.jpg in Resources */,
+				88897B261BE0D00300300D0D /* 李白.mp3 in Resources */,
+				8882D5CF1BD8B6B4002A3E0E /* 鸭子3.jpg in Resources */,
+				888979051BE0563000300D0D /* 月季.png in Resources */,
+				88897B091BE0D00300300D0D /* aboveMusic.png in Resources */,
+				8890A8A41BCE646000F51BE9 /* icon.png in Resources */,
+				88897B281BE0D00300300D0D /* 林俊杰-背对背拥抱.lrc in Resources */,
+				8882D5BE1BD8B6B4002A3E0E /* 青蛙3.jpg in Resources */,
+				8882D5221BD8B6B4002A3E0E /* 兔子3.jpg in Resources */,
+				8882D5D41BD8B6B4002A3E0E /* 鸽子3.jpg in Resources */,
+				8882D53C1BD8B6B4002A3E0E /* 小狗2.jpg in Resources */,
+				8882D5A71BD8B6B4002A3E0E /* 蛇2.jpg in Resources */,
+				8882D5571BD8B6B4002A3E0E /* 水濑4.jpg in Resources */,
+				888979121BE0563000300D0D /* 梨.png in Resources */,
+				8882D5371BD8B6B4002A3E0E /* 大象3.jpg in Resources */,
+				8882D5461BD8B6B4002A3E0E /* 小马4.jpg in Resources */,
+				88897B1A1BE0D00300300D0D /* 单个故事_meitu_2.jpg in Resources */,
+				8882D5B71BD8B6B4002A3E0E /* 西红柿1.jpg in Resources */,
+				8882D5CA1BD8B6B4002A3E0E /* 驯鹿5.jpg in Resources */,
+				8882D5C81BD8B6B4002A3E0E /* 驯鹿3.jpg in Resources */,
+				8889790D1BE0563000300D0D /* 荷花.png in Resources */,
+				8882D5A41BD8B6B4002A3E0E /* 蚂蚁8.jpg in Resources */,
+				8882D5591BD8B6B4002A3E0E /* 水濑6.jpg in Resources */,
+				888979321BE0563000300D0D /* 茄子.png in Resources */,
+				888979721BE0582500300D0D /* 菠萝.jpg in Resources */,
+				8882D5A91BD8B6B4002A3E0E /* 蛇4.jpg in Resources */,
+				8882D5231BD8B6B4002A3E0E /* 兔子4.jpg in Resources */,
+				8882D5D21BD8B6B4002A3E0E /* 鸽子1.jpg in Resources */,
+				8890A8D71BCE675A00F51BE9 /* 讲故事.png in Resources */,
+				88897B1C1BE0D00300300D0D /* 单曲哥_meitu_3.jpg in Resources */,
+				8882D58F1BD8B6B4002A3E0E /* 猴子4.jpg in Resources */,
+				8890A8D61BCE675A00F51BE9 /* 故事列表.png in Resources */,
+				8882D55F1BD8B6B4002A3E0E /* 海豚3.jpg in Resources */,
+				8889793E1BE0563000300D0D /* 猴子.png in Resources */,
+				8882D5BD1BD8B6B4002A3E0E /* 青蛙2.jpg in Resources */,
+				8882D57B1BD8B6B4002A3E0E /* 犀牛8.jpg in Resources */,
+				8889792D1BE0563000300D0D /* 槐树.png in Resources */,
+				8882D5361BD8B6B4002A3E0E /* 大象2.jpg in Resources */,
+				8882D5DB1BD8C2E4002A3E0E /* button_return.png in Resources */,
+				8882D5B11BD8B6B4002A3E0E /* 蜜蜂6.jpg in Resources */,
+				8882D5821BD8B6B4002A3E0E /* 猫6.jpg in Resources */,
+				888979351BE0563000300D0D /* 豆角.png in Resources */,
+				8882D56F1BD8B6B4002A3E0E /* 牧羊犬7.jpg in Resources */,
+				888979261BE0563000300D0D /* 松树.png in Resources */,
+				8882D5431BD8B6B4002A3E0E /* 小马1.jpg in Resources */,
+				888979061BE0563000300D0D /* 杜鹃.png in Resources */,
+				8882D5881BD8B6B4002A3E0E /* 猫头鹰4.jpg in Resources */,
+				8882D5D51BD8B6B4002A3E0E /* 鸽子4.jpg in Resources */,
+				888979401BE0563000300D0D /* 长颈鹿.png in Resources */,
+				8889793F1BE0563000300D0D /* 老虎.png in Resources */,
+				88897B2A1BE0D00300300D0D /* 梁静茹-偶阵雨.lrc in Resources */,
+				8890A8741BCE5C3300F51BE9 /* LaunchScreen.xib in Resources */,
+				8889792E1BE0563000300D0D /* 冬瓜.png in Resources */,
+				8882D5621BD8B6B4002A3E0E /* 海豚6.jpg in Resources */,
+				8882D56C1BD8B6B4002A3E0E /* 牧羊犬4.jpg in Resources */,
+				8882D59D1BD8B6B4002A3E0E /* 蚂蚁1.jpg in Resources */,
+				8882D5271BD8B6B4002A3E0E /* 兔子8.jpg in Resources */,
+				888979221BE0563000300D0D /* 马.png in Resources */,
+				88897B0F1BE0D00300300D0D /* pause.png in Resources */,
+				88897ADA1BE0CF4200300D0D /* YSHTellStoryViewController.xib in Resources */,
+				8890A8D31BCE675A00F51BE9 /* 单个故事.png in Resources */,
+				8889791E1BE0563000300D0D /* 狗.png in Resources */,
+				8882D57E1BD8B6B4002A3E0E /* 猫2.jpg in Resources */,
+				8882D56A1BD8B6B4002A3E0E /* 牧羊犬2.jpg in Resources */,
+				8882D5771BD8B6B4002A3E0E /* 犀牛4.jpg in Resources */,
+				8882D5671BD8B6B4002A3E0E /* 牧羊犬12.jpg in Resources */,
+				888979331BE0563000300D0D /* 葱.png in Resources */,
+				888978FF1BE0563000300D0D /* GBXGoToPlayTreeController.xib in Resources */,
+				8882D5AC1BD8B6B4002A3E0E /* 蜜蜂1.jpg in Resources */,
+				88897B191BE0D00300300D0D /* 单个故事_meitu_1.jpg in Resources */,
+				880460181BD87BE800AD3DAB /* button_pen.png in Resources */,
+				8882D56B1BD8B6B4002A3E0E /* 牧羊犬3.jpg in Resources */,
+				888979101BE0563000300D0D /* 桃.png in Resources */,
+				8882D54D1BD8B6B4002A3E0E /* 毛毛虫2.jpg in Resources */,
+				8882D5841BD8B6B4002A3E0E /* 猫8.jpg in Resources */,
+				8882D5911BD8B6B4002A3E0E /* 猴子6.jpg in Resources */,
+				880460121BD87B2900AD3DAB /* button_reset.png in Resources */,
+				8890A8711BCE5C3300F51BE9 /* Images.xcassets in Resources */,
+				8882D59F1BD8B6B4002A3E0E /* 蚂蚁3.jpg in Resources */,
+				8882D5BB1BD8B6B4002A3E0E /* 青蛙.jpg in Resources */,
+				8882D5251BD8B6B4002A3E0E /* 兔子6.jpg in Resources */,
+				88897AD41BE0CF4200300D0D /* YSHMainViewController.xib in Resources */,
+				8882D5541BD8B6B4002A3E0E /* 水濑11.jpg in Resources */,
+				8889790C1BE0563000300D0D /* 茉莉花.png in Resources */,
+				8882D57F1BD8B6B4002A3E0E /* 猫3.jpg in Resources */,
+				8889794B1BE0563000300D0D /* Tree.plist in Resources */,
+				880460141BD87B3800AD3DAB /* button_erase.png in Resources */,
+				8804601A1BD87BF000AD3DAB /* button_color.png in Resources */,
+				888979131BE0563000300D0D /* 榴莲.png in Resources */,
+				8882D5B21BD8B6B4002A3E0E /* 蝴蝶1.jpg in Resources */,
+				8882D5261BD8B6B4002A3E0E /* 兔子7.jpg in Resources */,
+				8882D5D11BD8B6B4002A3E0E /* 鸭子5.jpg in Resources */,
+				888978FD1BE0563000300D0D /* GBXGoToPlaySideAnimalController.xib in Resources */,
+				880089E91BDDB92C005FD0E1 /* LMKLeadViewController.xib in Resources */,
+				8882D5961BD8B6B4002A3E0E /* 老鼠3.jpg in Resources */,
+				8882D5241BD8B6B4002A3E0E /* 兔子5.jpg in Resources */,
+				8804601E1BD87C7700AD3DAB /* cemera.png in Resources */,
+				8882D5891BD8B6B4002A3E0E /* 猫头鹰5.jpg in Resources */,
+				888979231BE0563000300D0D /* 鸭子.png in Resources */,
+				888979151BE0563000300D0D /* 苹果.png in Resources */,
+				8882D5721BD8B6B4002A3E0E /* 犀牛1.jpg in Resources */,
+				88F7BAA81BD5E84600EFE492 /* draw.jpg in Resources */,
+				88897B141BE0D00300300D0D /* soundSlider.png in Resources */,
+				8889792A1BE0563000300D0D /* 桑树.png in Resources */,
+				888979041BE0563000300D0D /* GBXGoToPlayWildLifeController.xib in Resources */,
+				8882D5B61BD8B6B4002A3E0E /* 蝴蝶5.jpg in Resources */,
+				88897B2B1BE0D00300300D0D /* 梁静茹-偶阵雨.mp3 in Resources */,
+				8882D5CE1BD8B6B4002A3E0E /* 鸭子2.jpg in Resources */,
+				88897B251BE0D00300300D0D /* 情非得已.mp3 in Resources */,
+				880981301BDE2FBB00931ACF /* LMKColorViewController.xib in Resources */,
+				8882D5D61BD8B6B4002A3E0E /* 鸽子5.jpg in Resources */,
+				8882D5921BD8B6B4002A3E0E /* 猴子7.jpg in Resources */,
+				8882D5A31BD8B6B4002A3E0E /* 蚂蚁7.jpg in Resources */,
+				8882D5691BD8B6B4002A3E0E /* 牧羊犬14.jpg in Resources */,
+				8882D5B81BD8B6B4002A3E0E /* 西红柿2.jpg in Resources */,
+				8889794C1BE0563000300D0D /* Vegetable.plist in Resources */,
+				8882D5B91BD8B6B4002A3E0E /* 西红柿3.jpg in Resources */,
+				8882D5761BD8B6B4002A3E0E /* 犀牛3.jpg in Resources */,
+				8889791F1BE0563000300D0D /* 猪.png in Resources */,
+				8882D5DD1BD8C2E9002A3E0E /* button_left.png in Resources */,
+				8882D5B51BD8B6B4002A3E0E /* 蝴蝶4.jpg in Resources */,
+				8882D58C1BD8B6B4002A3E0E /* 猴子1.jpg in Resources */,
+				8882D5C71BD8B6B4002A3E0E /* 驯鹿2.jpg in Resources */,
+				8889792B1BE0563000300D0D /* 梧桐树.png in Resources */,
+				88D153171BD103CC00F773FB /* LMKMainViewController.xib in Resources */,
+				8882D5901BD8B6B4002A3E0E /* 猴子5.jpg in Resources */,
+				888979191BE0563000300D0D /* 香蕉.png in Resources */,
+				8882D5AE1BD8B6B4002A3E0E /* 蜜蜂3.jpg in Resources */,
+				88897B231BE0D00300300D0D /* 故事列表_meitu_3.png in Resources */,
+				88897B171BE0D00300300D0D /* 儿童首页_meitu_1.jpg in Resources */,
+				8882D5481BD8B6B4002A3E0E /* 小马6.jpg in Resources */,
+				8882D5411BD8B6B4002A3E0E /* 小狗7.jpg in Resources */,
+				8882D55A1BD8B6B4002A3E0E /* 水濑7.jpg in Resources */,
+				8882D53B1BD8B6B4002A3E0E /* 小狗1.jpg in Resources */,
+				88897B1F1BE0D00300300D0D /* 讲故事.png in Resources */,
+				888979411BE0563000300D0D /* 黑熊.png in Resources */,
+				8889796B1BE0582500300D0D /* 3.png in Resources */,
+				8889791B1BE0563000300D0D /* 公鸡.png in Resources */,
+				8882D5451BD8B6B4002A3E0E /* 小马3.jpg in Resources */,
+				88897B0D1BE0D00300300D0D /* menu.png in Resources */,
+				888979301BE0563000300D0D /* 大白菜.png in Resources */,
+				88897B181BE0D00300300D0D /* 单个故事.png in Resources */,
+				8882D5CD1BD8B6B4002A3E0E /* 鸭子1.jpg in Resources */,
+				880460161BD87BD700AD3DAB /* button_save.png in Resources */,
+				888979141BE0563000300D0D /* 橙子.png in Resources */,
+				8882D5AA1BD8B6B4002A3E0E /* 蛇5.jpg in Resources */,
+				8882D5351BD8B6B4002A3E0E /* 大象1.jpg in Resources */,
+				8882D54F1BD8B6B4002A3E0E /* 毛毛虫4.jpg in Resources */,
+				8882D55B1BD8B6B4002A3E0E /* 水濑8.jpg in Resources */,
+				88897B131BE0D00300300D0D /* sliderThumb_small.png in Resources */,
+				8882D5BF1BD8B6B4002A3E0E /* 青蛙4.jpg in Resources */,
+				8882D5281BD8B6B4002A3E0E /* 兔子9.jpg in Resources */,
+				8882D5561BD8B6B4002A3E0E /* 水濑3.jpg in Resources */,
+				888979081BE0563000300D0D /* 爬山虎.png in Resources */,
+				8882D5611BD8B6B4002A3E0E /* 海豚5.jpg in Resources */,
+				88F7BB861BD6471900EFE492 /* drawBoard.jpg in Resources */,
+				8882D5651BD8B6B4002A3E0E /* 牧羊犬10.jpg in Resources */,
+				8882D5DA1BD8C2E4002A3E0E /* button_right.png in Resources */,
+				8882D5791BD8B6B4002A3E0E /* 犀牛6.jpg in Resources */,
+				88897B111BE0D00300300D0D /* randomClose.png in Resources */,
+				8882D5731BD8B6B4002A3E0E /* 犀牛10.jpg in Resources */,
+				8882D59A1BD8B6B4002A3E0E /* 草莓4.jpg in Resources */,
+				8882D58E1BD8B6B4002A3E0E /* 猴子3.jpg in Resources */,
+				88897B221BE0D00300300D0D /* 听儿歌_meitu_1.jpg in Resources */,
+				8882D5A01BD8B6B4002A3E0E /* 蚂蚁4.jpg in Resources */,
+				88897B151BE0D00300300D0D /* sleep.jpg in Resources */,
+				8882D5701BD8B6B4002A3E0E /* 牧羊犬8.jpg in Resources */,
+				8882D54B1BD8B6B4002A3E0E /* 小马9.jpg in Resources */,
+				888979291BE0563000300D0D /* 桃树.png in Resources */,
+				8890A8D41BCE675A00F51BE9 /* 单曲哥.png in Resources */,
+				88897B241BE0D00300300D0D /* 情非得已.lrc in Resources */,
+				888979311BE0563000300D0D /* 胡萝卜.png in Resources */,
+				8882D56D1BD8B6B4002A3E0E /* 牧羊犬5.jpg in Resources */,
+				8889792C1BE0563000300D0D /* 梨树.png in Resources */,
+				8882D5A21BD8B6B4002A3E0E /* 蚂蚁6.jpg in Resources */,
+				888979491BE0563000300D0D /* Fruit.plist in Resources */,
+				8882D53E1BD8B6B4002A3E0E /* 小狗4.jpg in Resources */,
+				8882D56E1BD8B6B4002A3E0E /* 牧羊犬6.jpg in Resources */,
+				8882D5CC1BD8B6B4002A3E0E /* 驯鹿7.jpg in Resources */,
+				888978FA1BE0563000300D0D /* GBXGoToPlayFruitController.xib in Resources */,
+				8882D58B1BD8B6B4002A3E0E /* 猫头鹰7.jpg in Resources */,
+				8882D5781BD8B6B4002A3E0E /* 犀牛5.jpg in Resources */,
+				8889793B1BE0563000300D0D /* 梅花鹿.png in Resources */,
+				888978F81BE0563000300D0D /* GBXGoToPlayFlowerController.xib in Resources */,
+				8889790B1BE0563000300D0D /* 红玫瑰.png in Resources */,
+				888979731BE0582500300D0D /* 香蕉.jpg in Resources */,
+				8882D5681BD8B6B4002A3E0E /* 牧羊犬13.jpg in Resources */,
+				8882D5801BD8B6B4002A3E0E /* 猫4.jpg in Resources */,
+				8882D5491BD8B6B4002A3E0E /* 小马7.jpg in Resources */,
+				888979251BE0563000300D0D /* 杨树.png in Resources */,
+				88897B161BE0D00300300D0D /* 儿童首页.png in Resources */,
+				8882D5751BD8B6B4002A3E0E /* 犀牛2.jpg in Resources */,
+				8882D5641BD8B6B4002A3E0E /* 牧羊犬1.jpg in Resources */,
+				8889794A1BE0563000300D0D /* SideAnimal.plist in Resources */,
+				88F7BAA31BD5E0E000EFE492 /* 儿童首页.jpg in Resources */,
+				8882D5A81BD8B6B4002A3E0E /* 蛇3.jpg in Resources */,
+				888979711BE0582500300D0D /* 草莓.jpg in Resources */,
+				8882D5A61BD8B6B4002A3E0E /* 蛇1.jpg in Resources */,
+				88897B0B1BE0D00300300D0D /* circleClose.png in Resources */,
+				8882D59E1BD8B6B4002A3E0E /* 蚂蚁2.jpg in Resources */,
+				8882D5811BD8B6B4002A3E0E /* 猫5.jpg in Resources */,
+				8882D58A1BD8B6B4002A3E0E /* 猫头鹰6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890A8771BCE5C3300F51BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8890A85C1BCE5C3300F51BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88897AD51BE0CF4200300D0D /* YSHplaySongsViewController.m in Sources */,
+				8890A8691BCE5C3300F51BE9 /* AppDelegate.m in Sources */,
+				888979691BE0582500300D0D /* NumberViewController.m in Sources */,
+				8889796A1BE0582500300D0D /* TwoCalViewController.m in Sources */,
+				888979661BE0582500300D0D /* CalculateViewController.m in Sources */,
+				88749ED71BD718EE00FAE46E /* LMKTouchDrawView.m in Sources */,
+				888979031BE0563000300D0D /* GBXGoToPlayWildLifeController.m in Sources */,
+				8890A8661BCE5C3300F51BE9 /* main.m in Sources */,
+				888979431BE0563000300D0D /* FruitModel.m in Sources */,
+				888978F71BE0563000300D0D /* GBXGoToPlayFlowerController.m in Sources */,
+				888978FE1BE0563000300D0D /* GBXGoToPlayTreeController.m in Sources */,
+				888979451BE0563000300D0D /* TreeModel.m in Sources */,
+				888979671BE0582500300D0D /* GLLMainViewController.m in Sources */,
+				880981331BDE37D700931ACF /* LMKLeadButton.m in Sources */,
+				888979441BE0563000300D0D /* SideAnimalModel.m in Sources */,
+				88F7BB8E1BD64FA700EFE492 /* LMKColorPicker.m in Sources */,
+				888979001BE0563000300D0D /* GBXGoToPlayVegetableController.m in Sources */,
+				88897ADC1BE0CF4200300D0D /* YSHStory.m in Sources */,
+				888978F91BE0563000300D0D /* GBXGoToPlayFruitController.m in Sources */,
+				8890A8A11BCE623300F51BE9 /* MainViewController.m in Sources */,
+				88897AD31BE0CF4200300D0D /* YSHMainViewController.m in Sources */,
+				8809812F1BDE2FBB00931ACF /* LMKColorViewController.m in Sources */,
+				88897ADD1BE0CF4200300D0D /* YSHMainView.m in Sources */,
+				880089E81BDDB92C005FD0E1 /* LMKLeadViewController.m in Sources */,
+				8882D43C1BD8A636002A3E0E /* LMKRootsView.m in Sources */,
+				88897ADB1BE0CF4200300D0D /* YSHSong.m in Sources */,
+				888979461BE0563000300D0D /* VegetableModel.m in Sources */,
+				8890A8BC1BCE65FD00F51BE9 /* MainImageView.m in Sources */,
+				88897ADE1BE0CF4200300D0D /* YSHTellStoryView.m in Sources */,
+				88F7BB8B1BD64E8200EFE492 /* LMKLine.m in Sources */,
+				8890A8C71BCE669100F51BE9 /* UIImage+image.m in Sources */,
+				8890A8941BCE5EAF00F51BE9 /* LeadViewController.m in Sources */,
+				888979421BE0563000300D0D /* FlowerModel.m in Sources */,
+				88FAD22F1BCF59AB008F5ABB /* LeadView.m in Sources */,
+				888979471BE0563000300D0D /* WildLifeModel.m in Sources */,
+				88D153161BD103CC00F773FB /* LMKMainViewController.m in Sources */,
+				88F7BAA61BD5E25200EFE492 /* MainChooseButton.m in Sources */,
+				8890A8C81BCE669100F51BE9 /* UIView+Frame.m in Sources */,
+				888978FC1BE0563000300D0D /* GBXGoToPlaySideAnimalController.m in Sources */,
+				888978FB1BE0563000300D0D /* GBXGoToPlayItem.m in Sources */,
+				88897AD91BE0CF4200300D0D /* YSHTellStoryViewController.m in Sources */,
+				888979021BE0563000300D0D /* GBXGoToPlayView.m in Sources */,
+				88897AD71BE0CF4200300D0D /* YSHSingSongViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8890A8751BCE5C3300F51BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8890A8801BCE5C3300F51BE9 /* ChildrenWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8890A87B1BCE5C3300F51BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8890A85F1BCE5C3300F51BE9 /* ChildrenWorld */;
+			targetProxy = 8890A87A1BCE5C3300F51BE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8890A8721BCE5C3300F51BE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8890A8731BCE5C3300F51BE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		88B6027A1BCF45E60071DB8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88B6027B1BCF45E60071DB8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8890A8811BCE5C3300F51BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8890A8821BCE5C3300F51BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8890A8841BCE5C3300F51BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ChildrenWorld/Other/ChildrenWorld.pch;
+				INFOPLIST_FILE = ChildrenWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8890A8851BCE5C3300F51BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ChildrenWorld/Other/ChildrenWorld.pch;
+				INFOPLIST_FILE = ChildrenWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8890A8871BCE5C3300F51BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChildrenWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenWorld.app/ChildrenWorld";
+			};
+			name = Debug;
+		};
+		8890A8881BCE5C3300F51BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChildrenWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChildrenWorld.app/ChildrenWorld";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8890A85B1BCE5C3200F51BE9 /* Build configuration list for PBXProject "ChildrenWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8890A8811BCE5C3300F51BE9 /* Debug */,
+				8890A8821BCE5C3300F51BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8890A8831BCE5C3300F51BE9 /* Build configuration list for PBXNativeTarget "ChildrenWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8890A8841BCE5C3300F51BE9 /* Debug */,
+				8890A8851BCE5C3300F51BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8890A8861BCE5C3300F51BE9 /* Build configuration list for PBXNativeTarget "ChildrenWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8890A8871BCE5C3300F51BE9 /* Debug */,
+				8890A8881BCE5C3300F51BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8890A8581BCE5C3200F51BE9 /* Project object */;
+}

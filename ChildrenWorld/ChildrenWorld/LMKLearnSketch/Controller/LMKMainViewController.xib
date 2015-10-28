@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LMKMainViewController">
+            <connections>
+                <outlet property="backBtn" destination="4xn-GD-Scy" id="QGN-TY-c4W"/>
+                <outlet property="colorView" destination="q42-mB-wDh" id="oZn-cE-R5s"/>
+                <outlet property="drawView" destination="YOa-Xe-HZQ" id="AUG-7e-l3H"/>
+                <outlet property="selector1" destination="WMl-Ll-tkg" id="J7s-He-WGN"/>
+                <outlet property="selector2" destination="ofj-0m-1hd" id="3Fh-58-qbb"/>
+                <outlet property="selector3" destination="pcY-gH-etn" id="XLM-U3-4I0"/>
+                <outlet property="selector4" destination="ZBF-tj-izF" id="CY6-7S-xqF"/>
+                <outlet property="selector5" destination="MIu-Ll-zPM" id="59j-aC-dwM"/>
+                <outlet property="selector6" destination="Ebr-H8-CCv" id="uN5-jd-Ac1"/>
+                <outlet property="selector7" destination="WBi-mI-k0x" id="X0b-RZ-QBj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4xn-GD-Scy">
+                    <rect key="frame" x="317" y="629" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.86487926136363635" green="0.74368774660437797" blue="0.72216990212317045" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickBackBtn:" destination="-1" eventType="touchUpInside" id="56z-Za-ERY"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" id="q42-mB-wDh">
+                    <rect key="frame" x="13" y="599" width="296" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="Ebr-H8-CCv" customClass="LMKColorPicker">
+                            <rect key="frame" x="86" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.079632245124080181" green="0.060128287658966162" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="WBi-mI-k0x" customClass="LMKColorPicker">
+                            <rect key="frame" x="208" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="ofj-0m-1hd" customClass="LMKColorPicker">
+                            <rect key="frame" x="123" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.43205322566746329" green="1" blue="0.14673860646671655" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="pcY-gH-etn" customClass="LMKColorPicker">
+                            <rect key="frame" x="166" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.91176141105643937" blue="0.24772703467923751" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="ZBF-tj-izF" customClass="LMKColorPicker">
+                            <rect key="frame" x="48" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.55934343434343436" green="0.4806103545998629" blue="0.14352254959376151" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="WMl-Ll-tkg" customClass="LMKColorPicker">
+                            <rect key="frame" x="8" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.19687175276283775" blue="0.32667306153330866" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="MIu-Ll-zPM" customClass="LMKColorPicker">
+                            <rect key="frame" x="247" y="13" width="24" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="0.15307361351483018" blue="0.93726214374185179" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.63932942122871306" green="0.83679207898030494" blue="0.87511837121212122" alpha="0.0" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="YOa-Xe-HZQ" customClass="LMKTouchDrawView">
+                    <rect key="frame" x="8" y="367" width="359" height="231"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="437.5" y="274.5"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
